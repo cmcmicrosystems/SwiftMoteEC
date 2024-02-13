@@ -1,0 +1,37 @@
+### Module positions - created on Thu Jul 14 10:52:30 2022 ###
+### Printed by Pcbnew version (6.0.4)
+## Unit = inches, Angle = deg.
+## Side : bottom
+# Ref     Val               Package                                                 PosX       PosY       Rot  Side
+AE1       A5887H            RUFA_RT_A5887H                                       -1.0378     2.0587  180.0000  bottom
+AT1       2450LP14B100      JT_LPF_Bluetooth_2450LP14B100                        -0.7360     1.8945    0.0000  bottom
+C1        4.7u              C_0402_1005Metric                                    -0.8750     1.5780  180.0000  bottom
+C2        0.1u              C_0402_1005Metric                                    -0.8750     1.5370  180.0000  bottom
+C3        220n              R_0402_1005Metric                                    -0.7610     1.5680    0.0000  bottom
+C4        8.2p              C_0201_0603Metric                                    -0.9850     1.7070    0.0000  bottom
+C5        8.2p              C_0201_0603Metric                                    -0.9790     1.7860    0.0000  bottom
+C10       100n              C_0402_1005Metric                                    -0.9980     1.8930  180.0000  bottom
+C11       100n              C_0402_1005Metric                                    -1.0750     1.8930  180.0000  bottom
+C12       100n              C_0402_1005Metric                                    -0.7390     1.4920  180.0000  bottom
+C14       100n              C_0402_1005Metric                                    -1.0700     1.7070  180.0000  bottom
+C15       3p_               C_0402_1005Metric                                    -0.8330     1.3700  180.0000  bottom
+C16       3p_               C_0402_1005Metric                                    -0.9100     1.4640  180.0000  bottom
+C55       6.8p              C_0402_1005Metric                                    -1.2030     0.8740    0.0000  bottom
+C56       6.8p              C_0402_1005Metric                                    -1.2940     0.6980    0.0000  bottom
+C63       0.47u             C_0402_1005Metric                                    -0.9820     1.0750    0.0000  bottom
+C65       10u               C_0805_2012Metric                                    -0.6420     1.2010  180.0000  bottom
+C66       0.1u              C_0402_1005Metric                                    -0.6420     1.0480  180.0000  bottom
+C67       0.1u              C_0402_1005Metric                                    -0.6490     1.1170  180.0000  bottom
+C68       10u               C_0805_2012Metric                                    -1.0330     1.2120  180.0000  bottom
+C69       0.1u              C_0402_1005Metric                                    -0.9090     1.3120  180.0000  bottom
+C70       10u               R_0805_2012Metric                                    -0.9120     0.8470  180.0000  bottom
+C71       0.1u              C_0402_1005Metric                                    -1.0249     0.8450    0.0000  bottom
+J51       SolderPad         Pad_5x5mm                                            -0.4360     0.8070   78.6900  bottom
+L1        22n               L_SMD_0402_1005Metric_Pad0.77x0.64mm_HandSolder      -0.8680     1.6200  180.0000  bottom
+R1        0                 R_0402_1005Metric_Pad0.72x0.64mm_HandSolder          -0.9750     1.6200    0.0000  bottom
+R2        402               R_0402_1005Metric_Pad0.72x0.64mm_HandSolder          -1.0420     1.8520    0.0000  bottom
+U1        BLUENRG_355AC     ST_BlueNRG_LP_QFN-32-1EP_5x5mm_P0.5mm_EP3.6x3.6mm    -0.6970     1.7230    0.0000  bottom
+Y1        32MHz             Crystal_SMD_2016-4Pin_2.0x1.6mm_sm                   -0.8852     1.8642  135.0000  bottom
+Y2        Crystal_2pin      Crystal_SMD_2012-2Pin_2.0x1.2mm_sm                   -0.9543     1.6630   90.0000  bottom
+Y50       Crystal_4pin2GND  Crystal_SMD_3225-4Pin_3.2x2.5mm                      -1.1830     0.7450   90.0000  bottom
+## End

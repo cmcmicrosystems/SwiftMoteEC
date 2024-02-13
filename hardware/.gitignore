@@ -1,0 +1,40 @@
+# Original version of this list from https://github.com/github/gitignore/blob/main/KiCad.gitignore
+# First taken, April 18, 2022.  No known license file exists, appears to be in the public domain.
+# the web page does have a copyright at the bottom, (C)2022 GitHub, Inc.
+# ----------------------------------------------------------
+# For PCBs designed using KiCad: https://www.kicad.org/
+# Format documentation: https://kicad.org/help/file-formats/
+
+# Temporary files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups
+*.kicad_prl
+*.sch-bak
+*~
+_autosave-*
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+
+# Netlist files (exported from Eeschema)
+*.net
+
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
+
+# Exported BOM files
+# *.xml
+# *.csv
+
+# Design File Auto-Backups
+*-backups/
+
+# Do Not Include Internal Only Items
+project_share/
+PowerPointVersion_GitIgnore/

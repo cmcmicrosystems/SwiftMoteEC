@@ -1,0 +1,36 @@
+### Module positions - created on Thu Jul 14 10:52:30 2022 ###
+### Printed by Pcbnew version (6.0.4)
+## Unit = inches, Angle = deg.
+## Side : top
+# Ref     Val                        Package                                                PosX       PosY       Rot  Side
+C6        10n                        C_0402_1005Metric                                    0.3740     0.2960    0.0000  top
+C13       100n                       C_0402_1005Metric                                    0.8340     1.4610  180.0000  top
+C51       0.1u                       C_0402_1005Metric                                    0.9770     0.6970  180.0000  top
+C52       0.1u                       C_0402_1005Metric                                    1.0410     0.7860    0.0000  top
+C53       0.22u                      C_0402_1005Metric_Pad0.74x0.62mm_HandSolder          0.7490     1.1200  180.0000  top
+C54       DNP                        C_0402_1005Metric_Pad0.74x0.62mm_HandSolder          0.7410     1.0660  180.0000  top
+C57       220p                       C_0402_1005Metric_Pad0.74x0.62mm_HandSolder          0.7510     0.7800  180.0000  top
+C60       4.7u                       C_0603_1608Metric                                    0.8570     0.7450  180.0000  top
+C61       0.47u                      C_0402_1005Metric                                    0.7210     1.0010  180.0000  top
+C62       4.7u                       C_0603_1608Metric                                    1.2000     0.8850    0.0000  top
+C64       0.47u                      C_0402_1005Metric                                    0.9540     0.7550    0.0000  top
+D1        ORANGE                     LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder        1.2840     0.7980    0.0000  top
+FD5       Pinning_NPTH_40mil         Pinning_NPTH_40mil                                   1.4420     0.2150    0.0000  top
+FD6       Pinning_NPTH_40mil         Pinning_NPTH_40mil                                   0.3050     0.4650    0.0000  top
+FD7       Pinning_NPTH_40mil         Pinning_NPTH_40mil                                   0.6090     1.9830    0.0000  top
+J1        Conn_ARM_JTAG_SWD_10pin    FTSH_10pin_2rows_50milPitch                          0.9920     1.7500  180.0000  top
+J2        Conn_50mil_2row_10pin      BlueExp_10pin_2rows_50milPitch                       1.0920     1.3590  180.0000  top
+J50       Probe_Pad                  ProbePad_Magnetic_5x5mm                              0.4750     1.0050   78.6900  top
+J52       DNP_Conn_50mil_2row_10pin  Conn_10pin_2rows_50milPitch                          1.2280     0.5790  180.0000  top
+J100      Conn_FPC_1row_20pin        Molex_EasyOn_FFCFPC_2004850020                       0.9960     0.4120    0.0000  top
+J101      Conn_01x01                 PinHeader_1x01_P2.54mm_Vertical                      0.6800     0.5100    0.0000  top
+J102      Conn_01x01                 PinHeader_1x01_P2.54mm_Vertical                      0.4860     0.2560    0.0000  top
+J103      Conn_01x01                 PinHeader_1x01_P2.54mm_Vertical                      0.8250     0.5100    0.0000  top
+R3        100K                       R_0402_1005Metric                                    0.3740     0.3430  180.0000  top
+R4        150                        R_0402_1005Metric                                    0.3740     0.2230    0.0000  top
+R50       10K_DNP                    R_0603_1608Metric_Pad0.98x0.95mm_HandSolder          0.8130     1.2050    0.0000  top
+R51       DNP                        R_0402_1005Metric_Pad0.72x0.64mm_HandSolder          0.7520     0.7400  180.0000  top
+R52       100K                       R_0402_1005Metric                                    1.1910     1.0870  180.0000  top
+S1        Switch_SPST_NO             CuK_NanoT_AS                                         0.2970     0.2780   90.0000  top
+U50       AD5941BCPZ                 AD5941BCPZ_LFCSP-48-1EP_7x7mm_P0.5mm_EP4.1x4.1mm     0.9731     0.9769   90.0000  top
+## End
