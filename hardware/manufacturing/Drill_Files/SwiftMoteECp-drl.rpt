@@ -1,0 +1,33 @@
+Drill report for SwiftMoteECp.kicad_pcb
+Created on 7/14/2022 10:51:48 AM
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.SIGpot1.Cu              front
+    L2 :  I.GND1.Cu                 in1
+    L3 :  I.SIGpot2.Cu              in2
+    L4 :  I.GND2.Cu                 in3
+    L5 :  I.PWRpot1.Cu              in4
+    L6 :  I.PWRu.Cu                 in5
+    L7 :  I.GND3.Cu                 in6
+    L8 :  I.SIGu2.Cu                in7
+    L9 :  I.GND4.Cu                 in8
+    L10:  B.SIGu1.Cu                back
+
+
+Drill file 'SwiftMoteECp.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.254mm  0.0100"  (212 holes)
+    T2  0.356mm  0.0140"  (4 holes)
+    T3  1.000mm  0.0394"  (3 holes)
+
+    Total plated holes count 219
+
+
+Not plated through holes are merged with plated holes
+    unplated through holes:
+    =============================================================
+    T4  1.016mm  0.0400"  (3 holes)
+
+    Total unplated holes count 3

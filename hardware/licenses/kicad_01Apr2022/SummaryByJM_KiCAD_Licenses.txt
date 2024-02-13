@@ -1,0 +1,16 @@
+KiCAD Program License.
+-majority of code GNU General Public License(GPL) version 3 or greater.
+-additional licenses may exist in code base such as the MIT License, see source code for details
+
+Documentation License
+--two license choice, either:
+a) GNU GPL v3 or later
+b) Creative Commons Attribution License v3.0 or later
+
+Library License
+--CC-BY-SA 4.0 license
+
+Website License
+Creative Commons Attributions License version 3.0 or later 
+or
+GPL v3 or later

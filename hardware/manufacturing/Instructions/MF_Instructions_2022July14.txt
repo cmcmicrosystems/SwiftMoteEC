@@ -1,0 +1,57 @@
+The deisgn tool used was KiCad v6.04
+
+Directories within SwiftMoteECp_REV-PROTO-2022A_FabricationOutputs.zip
+1) /Bill_of_Materials - bill of materials
+2) /Drill_Files - report, drill chart, map file in both gerber and pdf.
+3) /Plots  
+	a) the file, SwiftMoteECp-Edge_Cuts.gbr provides the board outline / sizing.
+	b) !Gerbers are in metric (mm), but most other files are in imperial.
+4) /XY_Position_Files - XY/mirror coordinate data separated into 'bottom' and 'top' files where bottom=BACK side and top=FRONT side.
+5) /KiCad_Board_File - the KiCad 6.0.4 PCB Editor board file
+6) /IPC-D-356_Test_Files - standard electrical test netlist information
+7) /Instructions - this MF_Instructions.txt fabrication notes file location
+8) /Stackup - Board StackUp information.
+
+DRAWING VIEW
+1) When pushbutton S1 is in the bottom-left-corner, the view is of the FRONT side of the board.  (The antenna, AE1 is positioned at the top middle on the BACK side of the board). In the generated files, top=FRONT=F side, bottom=BACK=B side.
+
+DRILL (files in /Drill_Files directory)
+1) Standard tolerance of +/- 2mils on finished hole diamter.
+2) Refer to PDF of map file for details on PTH and NTPH location, type and quantity.
+2) Plated Through Holes (PTH) with minimum allowable copper in via of 1mil.
+	a) For 2.54mm connectors, 3x, 394mils drill diameter
+	b) Vias-in-Pad, these are needed for the two integrated circuits, U1 - the BlueNRG-LP Processor on the back side, and U50 the AD5941 on the front side.  All Vias-in-Pad are of size 10mils drill diameter and located on the IC's centre ground pad.  U1 has six vias-in-pad, U50 has 9.
+        c) standalone vias for RF filtering, 4x, size 140mils drill diameter
+3) Non-Plated Through Holes (NPTH) - There are 3 pinning holes labelled FD5/6/7 of drill diameter 40mil.  Two are near the bottom sides, one in the region of the antenna, AE1.
+
+LINE WIDTHS AND CONTROLLED IMPEDANCE MATCHING
+1) Line width reduction due to pinholes, nicks, or line hrinkage 10% max on all controlled impedance lines
+2) On Layer 1 = B=BACK-side near the antenna AE1, there are only two controlled impedance lines, 50-Ohm target.
+	a) U1/pin-14 to AT1/pin-2
+        b) AT1/pin-5 to AE1/pin-2
+3) All metal layers are 1-Oz Copper.
+4) Outer layer, gold plated, hard.
+
+BOARD FINISH/PROCESS:
+1) ENIG
+2) Smooth edges, (i.e.: no mouse bites)
+
+PASTEMASK
+1) Facility may adjust pastemask size.  Report each change of pastemask size to the client.
+
+SOLDERMASK
+1) White on both sides.  Use a light colour if white is unavailable (report colour selection to client).
+
+SILKSCREEN
+1) Black, Epoxy or Acrylic ink.
+2) Silkscreen from one component may overlap that of another, this is allowed.
+3) Silkscreen that is part of a component footprint is in some cases outside the board edge cuts (outline) and therefore will be cutoff at the edge of the board, this is expected/allowed.
+
+COMPONENTS
+1) All components were chosen to be lead-free, ROHS compliant.
+2) BoM - CMC Microsystems will supply:
+   a)Crystals, Y1, Y2, and Y50
+3) All remaining components are to be supplied by the PCB Assembly facility.
+4) Component AT1 by Johanson Technology P/N 2450LP14B100 is to be mounted with the brown mark facing up.  The brown mark is between pins 3 and 4.
+5) All Component Values with "DNP" are "Do Not Place".
+

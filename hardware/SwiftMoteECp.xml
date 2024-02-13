@@ -1,0 +1,2098 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\one\co_kicad6\ratkit\ratkit_proto\rkp_hw\ratkit_design\ratkit_design.kicad_sch</source>
+    <date>7/14/2022 10:55:10 AM</date>
+    <tool>Eeschema (6.0.4)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>RatKit Prototype</title>
+        <company>CMC Microsystems</company>
+        <rev>2022A</rev>
+        <date/>
+        <source>ratkit_design.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/RatKit_Main/" tstamps="/e9ea7cf3-811f-4d45-affd-39be4058ac53/">
+      <title_block>
+        <title>RatKit Prototype</title>
+        <company>CMC Microsystems</company>
+        <rev>2022A</rev>
+        <date/>
+        <source>RatKit_Main.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/RatKit_Power/" tstamps="/a4ba36cf-91b9-4fbc-9450-abe2698063d5/">
+      <title_block>
+        <title>RatKit Prototype</title>
+        <company>CMC Microsystems</company>
+        <rev>2022A</rev>
+        <date/>
+        <source>RatKit_Power.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="FD5">
+      <value>Pinning_NPTH_40mil</value>
+      <footprint>CMC_Fiducial:Pinning_NPTH_40mil</footprint>
+      <libsource lib="CMC_Fiducials" part="Pinning_NPTH_40mil" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ratkit_design.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c959d688-920d-4718-9124-244977f22988</tstamps>
+    </comp>
+    <comp ref="FD6">
+      <value>Pinning_NPTH_40mil</value>
+      <footprint>CMC_Fiducial:Pinning_NPTH_40mil</footprint>
+      <libsource lib="CMC_Fiducials" part="Pinning_NPTH_40mil" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ratkit_design.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6026cd43-f20d-4a0d-8e52-6ececba125e3</tstamps>
+    </comp>
+    <comp ref="FD7">
+      <value>Pinning_NPTH_40mil</value>
+      <footprint>CMC_Fiducial:Pinning_NPTH_40mil</footprint>
+      <libsource lib="CMC_Fiducials" part="Pinning_NPTH_40mil" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ratkit_design.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>536d13fa-538d-4b72-9c14-a245a887aecd</tstamps>
+    </comp>
+    <comp ref="AE1">
+      <value>A5887H</value>
+      <footprint>CMC_Antenna:RUFA_RT_A5887H</footprint>
+      <fields>
+        <field name="Digikey PN">627-1127-1-ND</field>
+        <field name="Manufacturer PN">A5887H</field>
+        <field name="Mouser PN">237-A5887H</field>
+        <field name="Top Distributor">Mouser</field>
+      </fields>
+      <libsource lib="CMC_Antenna" part="A5887H" description=""/>
+      <property name="Manufacturer PN" value="A5887H"/>
+      <property name="Digikey PN" value="627-1127-1-ND"/>
+      <property name="Mouser PN" value="237-A5887H"/>
+      <property name="Top Distributor" value="Mouser"/>
+      <property name="Sheetname" value="RatKit_Main"/>
+      <property name="Sheetfile" value="RatKit_Main.kicad_sch"/>
+      <sheetpath names="/RatKit_Main/" tstamps="/e9ea7cf3-811f-4d45-affd-39be4058ac53/"/>
+      <tstamps>3415c2d5-de08-46cd-bd54-8798a6f2702b</tstamps>
+    </comp>
+    <comp ref="AT1">
+      <value>2450LP14B100</value>
+      <footprint>CMC_RF_Filters:JT_LPF_Bluetooth_2450LP14B100</footprint>
+      <fields>
+        <field name="Digikey PN">712-1130-1-ND</field>
+        <field name="Manufacturer PN">2450LP14B100T </field>
+        <field name="Mouser PN">609-2450LP14B100T </field>
+        <field name="Top Distributor">Digikey</field>
+      </fields>
+      <libsource lib="CMC_RF_Filter" part="2450LP14B100" description=""/>
+      <property name="Manufacturer PN" value="2450LP14B100T "/>
+      <property name="Digikey PN" value="712-1130-1-ND"/>
+      <property name="Mouser PN" value="609-2450LP14B100T "/>
+      <property name="Top Distributor" value="Digikey"/>
+      <property name="Sheetname" value="RatKit_Main"/>
+      <property name="Sheetfile" value="RatKit_Main.kicad_sch"/>
+      <sheetpath names="/RatKit_Main/" tstamps="/e9ea7cf3-811f-4d45-affd-39be4058ac53/"/>
+      <tstamps>77acd8ba-3eb0-4130-986e-0d60aac9baaf</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>4.7u</value>
+      <footprint>CMC_Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Digikey PN">1276-6836-1-ND</field>
+        <field name="Manufacturer">Samsung</field>
+        <field name="Manufacturer PN">CL05A475MO5NUNC</field>
+        <field name="Mouser PN">187-CL05A475MO5NUNC</field>
+        <field name="Top Distributor">Mouser</field>
+        <field name="Type">X5R</field>
+        <field name="Voltage">16V</field>
+      </fields>
+      <libsource lib="CMC_Capacitor" part="Non_Polar" description=""/>
+      <property name="Manufacturer" value="Samsung"/>
+      <property name="Manufacturer PN" value="CL05A475MO5NUNC"/>
+      <property name="Digikey PN" value="1276-6836-1-ND"/>
+      <property name="Mouser PN" value="187-CL05A475MO5NUNC"/>
+      <property name="Top Distributor" value="Mouser"/>
+      <property name="Voltage" value="16V"/>
+      <property name="Type" value="X5R"/>
+      <property name="Sheetname" value="RatKit_Main"/>
+      <property name="Sheetfile" value="RatKit_Main.kicad_sch"/>
+      <sheetpath names="/RatKit_Main/" tstamps="/e9ea7cf3-811f-4d45-affd-39be4058ac53/"/>
+      <tstamps>aeb8db67-b616-4dd0-a518-ea703740f325</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>0.1u</value>
+      <footprint>CMC_Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Digikey PN">445-7348-1-ND</field>
+        <field name="Manufacturer PN">C1005X7R1E104K050BB</field>
+        <field name="Mouser PN">810-C1005X7R1E104K</field>
+        <field name="Top Distributor">Mouser</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage">25V</field>
+      </fields>
+      <libsource lib="CMC_Capacitor" part="Non_Polar" description=""/>
+      <property name="Manufacturer PN" value="C1005X7R1E104K050BB"/>
+      <property name="Digikey PN" value="445-7348-1-ND"/>
+      <property name="Mouser PN" value="810-C1005X7R1E104K"/>
+      <property name="Top Distributor" value="Mouser"/>
+      <property name="Voltage" value="25V"/>
+      <property name="Type" value="X7R"/>
+      <property name="Sheetname" value="RatKit_Main"/>
+      <property name="Sheetfile" value="RatKit_Main.kicad_sch"/>
+      <sheetpath names="/RatKit_Main/" tstamps="/e9ea7cf3-811f-4d45-affd-39be4058ac53/"/>
+      <tstamps>8a882d74-3dff-44bf-bb27-78d98b3b9964</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>220n</value>
+      <footprint>CMC_Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Digikey PN">445-174424-1-ND</field>
+        <field name="Manufacturer PN">CGA2B3X7R1E224K050BB</field>
+        <field name="Mouser PN">810-CGA2B3X7R1E224KB </field>
+        <field name="Top Distributor">Digikey</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage">25V</field>
+      </fields>
+      <libsource lib="CMC_Capacitor" part="Non_Polar" description=""/>
+      <property name="Manufacturer PN" value="CGA2B3X7R1E224K050BB"/>
+      <property name="Digikey PN" value="445-174424-1-ND"/>
+      <property name="Mouser PN" value="810-CGA2B3X7R1E224KB "/>
+      <property name="Top Distributor" value="Digikey"/>
+      <property name="Voltage" value="25V"/>
+      <property name="Type" value="X7R"/>
+      <property name="Sheetname" value="RatKit_Main"/>
+      <property name="Sheetfile" value="RatKit_Main.kicad_sch"/>
+      <sheetpath names="/RatKit_Main/" tstamps="/e9ea7cf3-811f-4d45-affd-39be4058ac53/"/>
+      <tstamps>57e4588d-f859-48e8-af7d-974506ab1a8a</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>8.2p</value>
+      <footprint>CMC_Capacitor_SMD:C_0201_0603Metric</footprint>
+      <fields>
+        <field name="Digikey PN">490-6133-1-ND</field>
+        <field name="Manufacturer PN">GRM0335C1H8R2DA01D</field>
+        <field name="Mouser PN">81-GRM0335C1H8R2DA1D</field>
+        <field name="Top Distributor">Mouser</field>
+        <field name="Type">C0G NP0</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="CMC_Capacitor" part="Non_Polar" description=""/>
+      <property name="Manufacturer PN" value="GRM0335C1H8R2DA01D"/>
+      <property name="Digikey PN" value="490-6133-1-ND"/>
+      <property name="Mouser PN" value="81-GRM0335C1H8R2DA1D"/>
+      <property name="Top Distributor" value="Mouser"/>
+      <property name="Voltage" value="50V"/>
+      <property name="Type" value="C0G NP0"/>
+      <property name="Sheetname" value="RatKit_Main"/>
+      <property name="Sheetfile" value="RatKit_Main.kicad_sch"/>
+      <sheetpath names="/RatKit_Main/" tstamps="/e9ea7cf3-811f-4d45-affd-39be4058ac53/"/>
+      <tstamps>b08255f3-701e-4733-abc1-ef86ab6a0c9f</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>8.2p</value>
+      <footprint>CMC_Capacitor_SMD:C_0201_0603Metric</footprint>
+      <fields>
+        <field name="Digikey PN">490-6133-1-ND</field>
+        <field name="Manufacturer PN">GRM0335C1H8R2DA01D</field>
+        <field name="Mouser PN">81-GRM0335C1H8R2DA1D</field>
+        <field name="Top Distributor">Mouser</field>
+        <field name="Type">C0G NP0</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="CMC_Capacitor" part="Non_Polar" description=""/>
+      <property name="Manufacturer PN" value="GRM0335C1H8R2DA01D"/>
+      <property name="Digikey PN" value="490-6133-1-ND"/>
+      <property name="Mouser PN" value="81-GRM0335C1H8R2DA1D"/>
+      <property name="Top Distributor" value="Mouser"/>
+      <property name="Voltage" value="50V"/>
+      <property name="Type" value="C0G NP0"/>
+      <property name="Sheetname" value="RatKit_Main"/>
+      <property name="Sheetfile" value="RatKit_Main.kicad_sch"/>
+      <sheetpath names="/RatKit_Main/" tstamps="/e9ea7cf3-811f-4d45-affd-39be4058ac53/"/>
+      <tstamps>97f41563-b89f-4467-a029-b22244819e02</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>10n</value>
+      <footprint>CMC_Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Digikey PN">490-GRM1555C1E103GE01DCT-ND</field>
+        <field name="Manufacturer PN">GRM1555C1E103GE01D</field>
+        <field name="Mouser PN">81-GRM1555C1E103GE1D </field>
+        <field name="Top Distributor">Mouser</field>
+        <field name="Type">C0G, NP0 +/- 2% tolerance</field>
+        <field name="Voltage">25V</field>
+      </fields>
+      <libsource lib="CMC_Capacitor" part="Non_Polar" description=""/>
+      <property name="Manufacturer PN" value="GRM1555C1E103GE01D"/>
+      <property name="Digikey PN" value="490-GRM1555C1E103GE01DCT-ND"/>
+      <property name="Mouser PN" value="81-GRM1555C1E103GE1D "/>
+      <property name="Top Distributor" value="Mouser"/>
+      <property name="Voltage" value="25V"/>
+      <property name="Type" value="C0G, NP0 +/- 2% tolerance"/>
+      <property name="Sheetname" value="RatKit_Main"/>
+      <property name="Sheetfile" value="RatKit_Main.kicad_sch"/>
+      <sheetpath names="/RatKit_Main/" tstamps="/e9ea7cf3-811f-4d45-affd-39be4058ac53/"/>
+      <tstamps>06441ce1-2708-4989-a894-bc1565b0524c</tstamps>
+    </comp>
+    <comp ref="C51">
+      <value>0.1u</value>
+      <footprint>CMC_Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Digikey PN">445-7348-1-ND</field>
+        <field name="Manufacturer PN">C1005X7R1E104K050BB</field>
+        <field name="Mouser PN">810-C1005X7R1E104K</field>
+        <field name="Top Distributor">Mouser</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage">25V</field>
+      </fields>
+      <libsource lib="CMC_Capacitor" part="Non_Polar" description=""/>
+      <property name="Manufacturer PN" value="C1005X7R1E104K050BB"/>
+      <property name="Digikey PN" value="445-7348-1-ND"/>
+      <property name="Mouser PN" value="810-C1005X7R1E104K"/>
+      <property name="Top Distributor" value="Mouser"/>
+      <property name="Voltage" value="25V"/>
+      <property name="Type" value="X7R"/>
+      <property name="Sheetname" value="RatKit_Main"/>
+      <property name="Sheetfile" value="RatKit_Main.kicad_sch"/>
+      <sheetpath names="/RatKit_Main/" tstamps="/e9ea7cf3-811f-4d45-affd-39be4058ac53/"/>
+      <tstamps>572e0998-cf18-4bde-ab71-cb90099ba0a4</tstamps>
+    </comp>
+    <comp ref="C52">
+      <value>0.1u</value>
+      <footprint>CMC_Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Digikey PN">445-7348-1-ND</field>
+        <field name="Manufacturer PN">C1005X7R1E104K050BB</field>
+        <field name="Mouser PN">810-C1005X7R1E104K</field>
+        <field name="Top Distributor">Mouser</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage">25V</field>
+      </fields>
+      <libsource lib="CMC_Capacitor" part="Non_Polar" description=""/>
+      <property name="Manufacturer PN" value="C1005X7R1E104K050BB"/>
+      <property name="Digikey PN" value="445-7348-1-ND"/>
+      <property name="Mouser PN" value="810-C1005X7R1E104K"/>
+      <property name="Top Distributor" value="Mouser"/>
+      <property name="Voltage" value="25V"/>
+      <property name="Type" value="X7R"/>
+      <property name="Sheetname" value="RatKit_Main"/>
+      <property name="Sheetfile" value="RatKit_Main.kicad_sch"/>
+      <sheetpath names="/RatKit_Main/" tstamps="/e9ea7cf3-811f-4d45-affd-39be4058ac53/"/>
+      <tstamps>1f5e6e2a-cced-4428-9aeb-5fd7334c0746</tstamps>
+    </comp>
+    <comp ref="C53">
+      <value>0.22u</value>
+      <footprint>CMC_Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey PN">490-10671-1-ND</field>
+        <field name="Manufacturer PN">GCM155R71C224KE02D</field>
+        <field name="Mouser PN">81-GCM155R71C224KE2D</field>
+        <field name="Top Distributor">Digikey</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage">25V</field>
+      </fields>
+      <libsource lib="CMC_Capacitor" part="Non_Polar" description=""/>
+      <property name="Manufacturer PN" value="GCM155R71C224KE02D"/>
+      <property name="Digikey PN" value="490-10671-1-ND"/>
+      <property name="Mouser PN" value="81-GCM155R71C224KE2D"/>
+      <property name="Top Distributor" value="Digikey"/>
+      <property name="Voltage" value="25V"/>
+      <property name="Type" value="X7R"/>
+      <property name="Sheetname" value="RatKit_Main"/>
+      <property name="Sheetfile" value="RatKit_Main.kicad_sch"/>
+      <sheetpath names="/RatKit_Main/" tstamps="/e9ea7cf3-811f-4d45-affd-39be4058ac53/"/>
+      <tstamps>b1183761-34b0-4b3f-81a6-bc25f288bffa</tstamps>
+    </comp>
+    <comp ref="C54">
+      <value>DNP</value>
+      <footprint>CMC_Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey PN">490-10671-1-ND</field>
+        <field name="Manufacturer PN">GCM155R71C224KE02D</field>
+        <field name="Mouser PN">81-GCM155R71C224KE2D</field>
+        <field name="Top Distributor">Digikey</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage">25V</field>
+      </fields>
+      <libsource lib="CMC_Capacitor" part="Non_Polar" description=""/>
+      <property name="Manufacturer PN" value="GCM155R71C224KE02D"/>
+      <property name="Digikey PN" value="490-10671-1-ND"/>
+      <property name="Mouser PN" value="81-GCM155R71C224KE2D"/>
+      <property name="Top Distributor" value="Digikey"/>
+      <property name="Voltage" value="25V"/>
+      <property name="Type" value="X7R"/>
+      <property name="Sheetname" value="RatKit_Main"/>
+      <property name="Sheetfile" value="RatKit_Main.kicad_sch"/>
+      <sheetpath names="/RatKit_Main/" tstamps="/e9ea7cf3-811f-4d45-affd-39be4058ac53/"/>
+      <tstamps>08b299ca-966e-4f46-b950-7398bb6982b6</tstamps>
+    </comp>
+    <comp ref="C55">
+      <value>6.8p</value>
+      <footprint>CMC_Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Digikey PN">399-15342-1-ND</field>
+        <field name="Manufacturer PN">C0402C689D3GAC7867</field>
+        <field name="Mouser PN">non-stocked item</field>
+        <field name="Top Distributor">Digikey</field>
+        <field name="Type">NP0 C0G</field>
+        <field name="Voltage">25V</field>
+      </fields>
+      <libsource lib="CMC_Capacitor" part="Non_Polar" description=""/>
+      <property name="Manufacturer PN" value="C0402C689D3GAC7867"/>
+      <property name="Digikey PN" value="399-15342-1-ND"/>
+      <property name="Mouser PN" value="non-stocked item"/>
+      <property name="Top Distributor" value="Digikey"/>
+      <property name="Voltage" value="25V"/>
+      <property name="Type" value="NP0 C0G"/>
+      <property name="Sheetname" value="RatKit_Main"/>
+      <property name="Sheetfile" value="RatKit_Main.kicad_sch"/>
+      <sheetpath names="/RatKit_Main/" tstamps="/e9ea7cf3-811f-4d45-affd-39be4058ac53/"/>
+      <tstamps>b55c07a1-4fd8-4a19-a3be-6db855007338</tstamps>
+    </comp>
+    <comp ref="C56">
+      <value>6.8p</value>
+      <footprint>CMC_Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Digikey PN">399-15342-1-ND</field>
+        <field name="Manufacturer PN">C0402C689D3GAC7867</field>
+        <field name="Mouser PN">non-stocked item</field>
+        <field name="Top Distributor">Digikey</field>
+        <field name="Type">NP0 C0G</field>
+        <field name="Voltage">25V</field>
+      </fields>
+      <libsource lib="CMC_Capacitor" part="Non_Polar" description=""/>
+      <property name="Manufacturer PN" value="C0402C689D3GAC7867"/>
+      <property name="Digikey PN" value="399-15342-1-ND"/>
+      <property name="Mouser PN" value="non-stocked item"/>
+      <property name="Top Distributor" value="Digikey"/>
+      <property name="Voltage" value="25V"/>
+      <property name="Type" value="NP0 C0G"/>
+      <property name="Sheetname" value="RatKit_Main"/>
+      <property name="Sheetfile" value="RatKit_Main.kicad_sch"/>
+      <sheetpath names="/RatKit_Main/" tstamps="/e9ea7cf3-811f-4d45-affd-39be4058ac53/"/>
+      <tstamps>e63d3d1a-8b45-4abd-ad69-17d162629931</tstamps>
+    </comp>
+    <comp ref="C57">
+      <value>220p</value>
+      <footprint>CMC_Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey PN">311-1026-1-ND</field>
+        <field name="Manufacturer PN">CC0402JRNPO8BN221</field>
+        <field name="Mouser PN">603-CC402JRNPO8BN221</field>
+        <field name="Top Distributor"> N/A</field>
+        <field name="Type">NP0</field>
+        <field name="Voltage">25V</field>
+      </fields>
+      <libsource lib="CMC_Capacitor" part="Non_Polar" description=""/>
+      <property name="Manufacturer PN" value="CC0402JRNPO8BN221"/>
+      <property name="Digikey PN" value="311-1026-1-ND"/>
+      <property name="Mouser PN" value="603-CC402JRNPO8BN221"/>
+      <property name="Top Distributor" value=" N/A"/>
+      <property name="Voltage" value="25V"/>
+      <property name="Type" value="NP0"/>
+      <property name="Sheetname" value="RatKit_Main"/>
+      <property name="Sheetfile" value="RatKit_Main.kicad_sch"/>
+      <sheetpath names="/RatKit_Main/" tstamps="/e9ea7cf3-811f-4d45-affd-39be4058ac53/"/>
+      <tstamps>9fc7846b-04a8-41f9-8588-bdbe3692d109</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>ORANGE</value>
+      <footprint>CMC_LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Description">tested at 2mA, mcd=148, Vf=1.8V-2.1V</field>
+        <field name="Digikey PN">1497-XZCM2MOK53WA-1VFCT-ND</field>
+        <field name="Manufacturer PN">XZCM2MOK53WA-1VF</field>
+        <field name="Top Distributor PN">Digikey</field>
+      </fields>
+      <libsource lib="CMC_LED" part="LED_GREEN" description=""/>
+      <property name="Manufacturer PN" value="XZCM2MOK53WA-1VF"/>
+      <property name="Digikey PN" value="1497-XZCM2MOK53WA-1VFCT-ND"/>
+      <property name="Mouser PN" value=""/>
+      <property name="Top Distributor PN" value="Digikey"/>
+      <property name="Description" value="tested at 2mA, mcd=148, Vf=1.8V-2.1V"/>
+      <property name="Sheetname" value="RatKit_Main"/>
+      <property name="Sheetfile" value="RatKit_Main.kicad_sch"/>
+      <sheetpath names="/RatKit_Main/" tstamps="/e9ea7cf3-811f-4d45-affd-39be4058ac53/"/>
+      <tstamps>9df86252-160c-4cdb-b7f8-0e29d074eea7</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_ARM_JTAG_SWD_10pin</value>
+      <footprint>CMC_Conn:FTSH_10pin_2rows_50milPitch</footprint>
+      <fields>
+        <field name="Description">10-pin, 50 mil, keyed on 7, https://developer.arm.com/documentation/101453/0100/CoreSight-Technology/Connectors</field>
+        <field name="Digikey PN">SAM9438-ND</field>
+        <field name="Manufacturer">Samtec</field>
+        <field name="Manufacturer PN">FTSH-105-01-l-DV-007-K</field>
+        <field name="Mouser PN">200-FTSH10501LDV007K</field>
+        <field name="Top Distributor">Mouser</field>
+      </fields>
+      <libsource lib="CMC_Connector" part="Conn_ARM_JTAG_SWD_10pin" description=""/>
+      <property name="Manufacturer" value="Samtec"/>
+      <property name="Manufacturer PN" value="FTSH-105-01-l-DV-007-K"/>
+      <property name="Digikey PN" value="SAM9438-ND"/>
+      <property name="Mouser PN" value="200-FTSH10501LDV007K"/>
+      <property name="Top Distributor" value="Mouser"/>
+      <property name="Description" value="10-pin, 50 mil, keyed on 7, https://developer.arm.com/documentation/101453/0100/CoreSight-Technology/Connectors"/>
+      <property name="Sheetname" value="RatKit_Main"/>
+      <property name="Sheetfile" value="RatKit_Main.kicad_sch"/>
+      <sheetpath names="/RatKit_Main/" tstamps="/e9ea7cf3-811f-4d45-affd-39be4058ac53/"/>
+      <tstamps>c658c1ba-7358-4de9-8477-5da692197f18</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_50mil_2row_10pin</value>
+      <footprint>CMC_Conn:BlueExp_10pin_2rows_50milPitch</footprint>
+      <fields>
+        <field name="Digikey PN">FTSH-105-01-L-DV-007-P-ND</field>
+        <field name="Manufacturer PN">FTSH-105-01-l-DV-007-P</field>
+        <field name="Mouser PN">200-FTSH10501LDV7P</field>
+        <field name="Top Distributor">Digikey</field>
+      </fields>
+      <libsource lib="CMC_Connector" part="Conn_50mil_2row_10pin" description=""/>
+      <property name="Manufacturer PN" value="FTSH-105-01-l-DV-007-P"/>
+      <property name="Digikey PN" value="FTSH-105-01-L-DV-007-P-ND"/>
+      <property name="Mouser PN" value="200-FTSH10501LDV7P"/>
+      <property name="Top Distributor" value="Digikey"/>
+      <property name="Sheetname" value="RatKit_Main"/>
+      <property name="Sheetfile" value="RatKit_Main.kicad_sch"/>
+      <sheetpath names="/RatKit_Main/" tstamps="/e9ea7cf3-811f-4d45-affd-39be4058ac53/"/>
+      <tstamps>09d33d00-04ea-443a-baf4-45b33f0cb6b8</tstamps>
+    </comp>
+    <comp ref="J50">
+      <value>Probe_Pad</value>
+      <footprint>CMC_Conn:ProbePad_Magnetic_5x5mm</footprint>
+      <fields>
+        <field name="Description">DNP</field>
+        <field name="Digikey PN">DNP</field>
+        <field name="Manufacturer PN">DNP</field>
+        <field name="Mouser PN">DNP</field>
+        <field name="Top Distributor">DNP</field>
+      </fields>
+      <libsource lib="CMC_Connector" part="Probe_Pad" description=""/>
+      <property name="Manufacturer PN" value="DNP"/>
+      <property name="Digikey PN" value="DNP"/>
+      <property name="Mouser PN" value="DNP"/>
+      <property name="Top Distributor" value="DNP"/>
+      <property name="Description" value="DNP"/>
+      <property name="Sheetname" value="RatKit_Main"/>
+      <property name="Sheetfile" value="RatKit_Main.kicad_sch"/>
+      <sheetpath names="/RatKit_Main/" tstamps="/e9ea7cf3-811f-4d45-affd-39be4058ac53/"/>
+      <tstamps>052a793b-14c9-437e-82ab-3ff99746898f</tstamps>
+    </comp>
+    <comp ref="J51">
+      <value>SolderPad</value>
+      <footprint>CMC_Conn:Pad_5x5mm</footprint>
+      <fields>
+        <field name="Manufacturer PN">DNP</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Manufacturer PN" value="DNP"/>
+      <property name="Sheetname" value="RatKit_Main"/>
+      <property name="Sheetfile" value="RatKit_Main.kicad_sch"/>
+      <sheetpath names="/RatKit_Main/" tstamps="/e9ea7cf3-811f-4d45-affd-39be4058ac53/"/>
+      <tstamps>26d34c7a-663c-44ce-bf5d-9011a0023f0c</tstamps>
+    </comp>
+    <comp ref="J52">
+      <value>DNP Conn_50mil_2row_10pin</value>
+      <footprint>CMC_Conn:Conn_10pin_2rows_50milPitch</footprint>
+      <fields>
+        <field name="Digikey PN">FTSH-105-01-L-DV-007-P-ND</field>
+        <field name="Manufacturer PN">FTSH-105-01-l-DV-007-P</field>
+        <field name="Mouser PN">200-FTSH10501LDV7P</field>
+        <field name="Top Distributor">Digikey</field>
+      </fields>
+      <libsource lib="CMC_Connector" part="Conn_50mil_2row_10pin" description=""/>
+      <property name="Manufacturer PN" value="FTSH-105-01-l-DV-007-P"/>
+      <property name="Digikey PN" value="FTSH-105-01-L-DV-007-P-ND"/>
+      <property name="Mouser PN" value="200-FTSH10501LDV7P"/>
+      <property name="Top Distributor" value="Digikey"/>
+      <property name="Sheetname" value="RatKit_Main"/>
+      <property name="Sheetfile" value="RatKit_Main.kicad_sch"/>
+      <sheetpath names="/RatKit_Main/" tstamps="/e9ea7cf3-811f-4d45-affd-39be4058ac53/"/>
+      <tstamps>7acc2d97-206f-4abe-8fbd-c5107cbb67be</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>0</value>
+      <footprint>CMC_Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey PN">10-ERJ-U020R00XCT-ND</field>
+        <field name="Manufacturer PN">ERJ-U020R00X</field>
+        <field name="Mouser PN">667-ERJ-U020R00X </field>
+        <field name="Top Distributor">Mouser</field>
+      </fields>
+      <libsource lib="CMC_Resistor" part="R" description=""/>
+      <property name="Manufacturer PN" value="ERJ-U020R00X"/>
+      <property name="Digikey PN" value="10-ERJ-U020R00XCT-ND"/>
+      <property name="Mouser PN" value="667-ERJ-U020R00X "/>
+      <property name="Top Distributor" value="Mouser"/>
+      <property name="Sheetname" value="RatKit_Main"/>
+      <property name="Sheetfile" value="RatKit_Main.kicad_sch"/>
+      <sheetpath names="/RatKit_Main/" tstamps="/e9ea7cf3-811f-4d45-affd-39be4058ac53/"/>
+      <tstamps>2a7c234e-e858-4d4c-b7df-d80f993c99f2</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>402</value>
+      <footprint>CMC_Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey PN">P402LCT-ND</field>
+        <field name="Manufacturer PN">ERJ-2RKF4020X</field>
+        <field name="Mouser PN">667-ERJ-2RKF4020X</field>
+        <field name="Power">1/10W</field>
+        <field name="Top Distributor">Mouser</field>
+      </fields>
+      <libsource lib="CMC_Resistor" part="R" description=""/>
+      <property name="Manufacturer PN" value="ERJ-2RKF4020X"/>
+      <property name="Digikey PN" value="P402LCT-ND"/>
+      <property name="Mouser PN" value="667-ERJ-2RKF4020X"/>
+      <property name="Top Distributor" value="Mouser"/>
+      <property name="Power" value="1/10W"/>
+      <property name="Sheetname" value="RatKit_Main"/>
+      <property name="Sheetfile" value="RatKit_Main.kicad_sch"/>
+      <sheetpath names="/RatKit_Main/" tstamps="/e9ea7cf3-811f-4d45-affd-39be4058ac53/"/>
+      <tstamps>5b694dc5-b08e-4127-9b8e-009ac55a3f1f</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>100K</value>
+      <footprint>CMC_Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Digikey PN">CR0402-FX-1003GLFCT-ND</field>
+        <field name="Manufacturer PN">CR0402-FX-1003GLF</field>
+        <field name="Mouser PN">652-CR0402FX-1003GLF</field>
+        <field name="Power">1/16W</field>
+        <field name="Top Distributor">Mouser</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="CMC_Resistor" part="R" description=""/>
+      <property name="Manufacturer PN" value="CR0402-FX-1003GLF"/>
+      <property name="Digikey PN" value="CR0402-FX-1003GLFCT-ND"/>
+      <property name="Mouser PN" value="652-CR0402FX-1003GLF"/>
+      <property name="Top Distributor" value="Mouser"/>
+      <property name="Power" value="1/16W"/>
+      <property name="Voltage" value="50V"/>
+      <property name="Sheetname" value="RatKit_Main"/>
+      <property name="Sheetfile" value="RatKit_Main.kicad_sch"/>
+      <sheetpath names="/RatKit_Main/" tstamps="/e9ea7cf3-811f-4d45-affd-39be4058ac53/"/>
+      <tstamps>daad358b-db10-40b7-b0b8-b85ee512b96a</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>150</value>
+      <footprint>CMC_Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Digikey PN">10-ERJ-U02F1500XCT-ND</field>
+        <field name="Manufacturer PN">ERJ-U02F1500X</field>
+        <field name="Mouser PN">667-ERJ-U02F1500X</field>
+        <field name="Power">1/10W</field>
+        <field name="Top Distributor">Digikey</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="CMC_Resistor" part="R" description=""/>
+      <property name="Manufacturer PN" value="ERJ-U02F1500X"/>
+      <property name="Digikey PN" value="10-ERJ-U02F1500XCT-ND"/>
+      <property name="Mouser PN" value="667-ERJ-U02F1500X"/>
+      <property name="Top Distributor" value="Digikey"/>
+      <property name="Power" value="1/10W"/>
+      <property name="Voltage" value="50V"/>
+      <property name="Sheetname" value="RatKit_Main"/>
+      <property name="Sheetfile" value="RatKit_Main.kicad_sch"/>
+      <sheetpath names="/RatKit_Main/" tstamps="/e9ea7cf3-811f-4d45-affd-39be4058ac53/"/>
+      <tstamps>66dce6ce-2b44-4907-8086-da90f350e58b</tstamps>
+    </comp>
+    <comp ref="R50">
+      <value>10K</value>
+      <footprint>CMC_Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey PN">P10KBDCT-ND</field>
+        <field name="Manufacturer PN">ERA-3ARB103V </field>
+        <field name="Mouser PN">667-ERA-3ARB103V </field>
+        <field name="Power">1/10W</field>
+        <field name="Tolerance">0.1%</field>
+        <field name="Top Distributor">Mouser</field>
+        <field name="Voltage">75V</field>
+      </fields>
+      <libsource lib="CMC_Resistor" part="R" description=""/>
+      <property name="Manufacturer PN" value="ERA-3ARB103V "/>
+      <property name="Digikey PN" value="P10KBDCT-ND"/>
+      <property name="Mouser PN" value="667-ERA-3ARB103V "/>
+      <property name="Top Distributor" value="Mouser"/>
+      <property name="Power" value="1/10W"/>
+      <property name="Voltage" value="75V"/>
+      <property name="Tolerance" value="0.1%"/>
+      <property name="Sheetname" value="RatKit_Main"/>
+      <property name="Sheetfile" value="RatKit_Main.kicad_sch"/>
+      <sheetpath names="/RatKit_Main/" tstamps="/e9ea7cf3-811f-4d45-affd-39be4058ac53/"/>
+      <tstamps>13eff016-cd90-42a0-8df7-a88ba1ec4911</tstamps>
+    </comp>
+    <comp ref="R51">
+      <value>DNP</value>
+      <footprint>CMC_Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <libsource lib="CMC_Resistor" part="R" description=""/>
+      <property name="Sheetname" value="RatKit_Main"/>
+      <property name="Sheetfile" value="RatKit_Main.kicad_sch"/>
+      <sheetpath names="/RatKit_Main/" tstamps="/e9ea7cf3-811f-4d45-affd-39be4058ac53/"/>
+      <tstamps>2880e5a7-65c6-4a2a-92ac-b0b347d4e88b</tstamps>
+    </comp>
+    <comp ref="R52">
+      <value>100K</value>
+      <footprint>CMC_Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Digikey PN">CR0402-FX-1003GLFCT-ND</field>
+        <field name="Manufacturer PN">CR0402-FX-1003GLF</field>
+        <field name="Mouser PN">652-CR0402FX-1003GLF</field>
+        <field name="Power">1/16W</field>
+        <field name="Top Distributor">Mouser</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="CMC_Resistor" part="R" description=""/>
+      <property name="Manufacturer PN" value="CR0402-FX-1003GLF"/>
+      <property name="Digikey PN" value="CR0402-FX-1003GLFCT-ND"/>
+      <property name="Mouser PN" value="652-CR0402FX-1003GLF"/>
+      <property name="Top Distributor" value="Mouser"/>
+      <property name="Power" value="1/16W"/>
+      <property name="Voltage" value="50V"/>
+      <property name="Sheetname" value="RatKit_Main"/>
+      <property name="Sheetfile" value="RatKit_Main.kicad_sch"/>
+      <sheetpath names="/RatKit_Main/" tstamps="/e9ea7cf3-811f-4d45-affd-39be4058ac53/"/>
+      <tstamps>bf856516-bbbf-42ba-9273-2a3af2865480</tstamps>
+    </comp>
+    <comp ref="S1">
+      <value>Switch_SPST_NO</value>
+      <footprint>CMC_Button_Switch:CuK_NanoT_AS</footprint>
+      <fields>
+        <field name="Description">2.10mmx1.65mm, 300K cycles, 160gf &amp; There are others with more/less force.</field>
+        <field name="Digikey PN">108-NANOT160ASCT-ND</field>
+        <field name="Manufacturer PN">NANOT 160 AS</field>
+        <field name="Top Distributor">Digikey</field>
+      </fields>
+      <libsource lib="CMC_Switches" part="Switch_SPST_NO" description=""/>
+      <property name="Manufacturer PN" value="NANOT 160 AS"/>
+      <property name="Digikey PN" value="108-NANOT160ASCT-ND"/>
+      <property name="Mouser PN" value=""/>
+      <property name="Top Distributor" value="Digikey"/>
+      <property name="Description" value="2.10mmx1.65mm, 300K cycles, 160gf &amp; There are others with more/less force."/>
+      <property name="Sheetname" value="RatKit_Main"/>
+      <property name="Sheetfile" value="RatKit_Main.kicad_sch"/>
+      <sheetpath names="/RatKit_Main/" tstamps="/e9ea7cf3-811f-4d45-affd-39be4058ac53/"/>
+      <tstamps>faf54996-90a3-48b9-87b8-ee8eeea58fcb</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>BLUENRG_355AC</value>
+      <footprint>CMC_MCU_ST_QFN_BlueNRG_LP:ST_BlueNRG_LP_QFN-32-1EP_5x5mm_P0.5mm_EP3.6x3.6mm</footprint>
+      <datasheet>bluenrg-lp.pdf</datasheet>
+      <fields>
+        <field name="Digikey PN">497-BLUENRG-355ATCT-ND</field>
+        <field name="Manufacturer PN">BLUENRG-355AT</field>
+        <field name="Mouser PN">511-BLUENRG-355AT </field>
+        <field name="Top Distributor">Mouser</field>
+      </fields>
+      <libsource lib="CMC_MCU_ST_BlueNRG_LP" part="BLUENRG_355AC" description=""/>
+      <property name="Manufacturer PN" value="BLUENRG-355AT"/>
+      <property name="Digikey PN" value="497-BLUENRG-355ATCT-ND"/>
+      <property name="Mouser PN" value="511-BLUENRG-355AT "/>
+      <property name="Top Distributor" value="Mouser"/>
+      <property name="Sheetname" value="RatKit_Main"/>
+      <property name="Sheetfile" value="RatKit_Main.kicad_sch"/>
+      <sheetpath names="/RatKit_Main/" tstamps="/e9ea7cf3-811f-4d45-affd-39be4058ac53/"/>
+      <tstamps>9ff93078-52f4-4521-bd93-f62333f8d086</tstamps>
+    </comp>
+    <comp ref="U50">
+      <value>AD5941BCPZ</value>
+      <footprint>CMC_Potentiostat:AD5941BCPZ_LFCSP-48-1EP_7x7mm_P0.5mm_EP4.1x4.1mm</footprint>
+      <fields>
+        <field name="Digikey PN">505-AD5941BCPZ-ND</field>
+        <field name="Manufacturer PN">AD5941BCPZ</field>
+        <field name="Mouser PN">584-AD5941BCPZ</field>
+        <field name="Top Distributor">Mouser</field>
+      </fields>
+      <libsource lib="CMC_Potentiostat" part="AD5941BCPZ" description=""/>
+      <property name="Manufacturer PN" value="AD5941BCPZ"/>
+      <property name="Digikey PN" value="505-AD5941BCPZ-ND"/>
+      <property name="Mouser PN" value="584-AD5941BCPZ"/>
+      <property name="Top Distributor" value="Mouser"/>
+      <property name="Sheetname" value="RatKit_Main"/>
+      <property name="Sheetfile" value="RatKit_Main.kicad_sch"/>
+      <sheetpath names="/RatKit_Main/" tstamps="/e9ea7cf3-811f-4d45-affd-39be4058ac53/"/>
+      <tstamps>08e77926-c645-4f4a-adb1-81f5d1017fe7</tstamps>
+    </comp>
+    <comp ref="Y1">
+      <value>32MHz</value>
+      <footprint>CMC_Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm_sm</footprint>
+      <fields>
+        <field name="Alternate">maybe: NX2016SA series.  temperature range differs for OA/AV/Wireless vs For Automotive</field>
+        <field name="Digikey PN">644-1376-1-ND</field>
+        <field name="Loading">60 Ohms, 6pF </field>
+        <field name="Manufacturer PN">NX2016SA-32MHZ-EXS00A-CS11213</field>
+        <field name="Mouser PN">N/A</field>
+        <field name="Top Distributor">Digikey</field>
+      </fields>
+      <libsource lib="CMC_Crystal" part="Crystal_4pin2GND" description=""/>
+      <property name="Manufacturer PN" value="NX2016SA-32MHZ-EXS00A-CS11213"/>
+      <property name="Digikey PN" value="644-1376-1-ND"/>
+      <property name="Mouser PN" value="N/A"/>
+      <property name="Top Distributor" value="Digikey"/>
+      <property name="Loading" value="60 Ohms, 6pF "/>
+      <property name="Alternate" value="maybe: NX2016SA series.  temperature range differs for OA/AV/Wireless vs For Automotive"/>
+      <property name="Sheetname" value="RatKit_Main"/>
+      <property name="Sheetfile" value="RatKit_Main.kicad_sch"/>
+      <sheetpath names="/RatKit_Main/" tstamps="/e9ea7cf3-811f-4d45-affd-39be4058ac53/"/>
+      <tstamps>92cd8294-3c7a-41fe-8b23-e756b395ee2c</tstamps>
+    </comp>
+    <comp ref="Y2">
+      <value>Crystal_2pin</value>
+      <footprint>CMC_Crystal:Crystal_SMD_2012-2Pin_2.0x1.2mm_sm</footprint>
+      <fields>
+        <field name="Alternate">But DIFFERENT Footprint!  ABS07AIG-32.768KHZ-7-T / 535-13350-1-ND / 815-S07AIG-32.768-7T /7pF, 80kOhms</field>
+        <field name="Digikey PN">644-1354-1-ND</field>
+        <field name="Loading">7pF, 80kOhms</field>
+        <field name="Manufacturer PN">NX2012SA-32.768KHZ-EXS00A-MU00530</field>
+        <field name="Top Distributor">Digikey</field>
+      </fields>
+      <libsource lib="CMC_Crystal" part="Crystal_2pin" description=""/>
+      <property name="Manufacturer PN" value="NX2012SA-32.768KHZ-EXS00A-MU00530"/>
+      <property name="Digikey PN" value="644-1354-1-ND"/>
+      <property name="Mouser PN" value=""/>
+      <property name="Top Distributor" value="Digikey"/>
+      <property name="Loading" value="7pF, 80kOhms"/>
+      <property name="Alternate" value="But DIFFERENT Footprint!  ABS07AIG-32.768KHZ-7-T / 535-13350-1-ND / 815-S07AIG-32.768-7T /7pF, 80kOhms"/>
+      <property name="Sheetname" value="RatKit_Main"/>
+      <property name="Sheetfile" value="RatKit_Main.kicad_sch"/>
+      <sheetpath names="/RatKit_Main/" tstamps="/e9ea7cf3-811f-4d45-affd-39be4058ac53/"/>
+      <tstamps>7add7243-fc80-4de3-ae95-219e3151bcce</tstamps>
+    </comp>
+    <comp ref="Y50">
+      <value>Crystal_4pin2GND</value>
+      <footprint>CMC_Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm</footprint>
+      <fields>
+        <field name="Description">Crystal_4pin2GND, 16MHz 7pF 70Ohms 4-SMD, no lead</field>
+        <field name="Digikey PN">535-13466-1-ND</field>
+        <field name="Manufacturer PN">ABM8-16.000MHZ-7-1-U-T</field>
+        <field name="Mouser PN">815-ABM8-16-7-1-U-T </field>
+        <field name="Top Distributor">Digikey, Newark as Alternate</field>
+      </fields>
+      <libsource lib="CMC_Crystal" part="Crystal_4pin2GND" description=""/>
+      <property name="Manufacturer PN" value="ABM8-16.000MHZ-7-1-U-T"/>
+      <property name="Digikey PN" value="535-13466-1-ND"/>
+      <property name="Mouser PN" value="815-ABM8-16-7-1-U-T "/>
+      <property name="Top Distributor" value="Digikey, Newark as Alternate"/>
+      <property name="Description" value="Crystal_4pin2GND, 16MHz 7pF 70Ohms 4-SMD, no lead"/>
+      <property name="Sheetname" value="RatKit_Main"/>
+      <property name="Sheetfile" value="RatKit_Main.kicad_sch"/>
+      <sheetpath names="/RatKit_Main/" tstamps="/e9ea7cf3-811f-4d45-affd-39be4058ac53/"/>
+      <tstamps>228abac4-59af-4d31-b717-8c8cdb43c0d5</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>100n</value>
+      <footprint>CMC_Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Digikey PN">490-16431-1-ND</field>
+        <field name="Manufacturer PN">GCM155R71E104KE02D</field>
+        <field name="Mouser PN">GCM155R71E104KE02D</field>
+        <field name="Top Distributor">Digikey</field>
+        <field name="Type">X7R, 10% tolerance</field>
+        <field name="Voltage">25V</field>
+      </fields>
+      <libsource lib="CMC_Capacitor" part="Non_Polar" description=""/>
+      <property name="Manufacturer PN" value="GCM155R71E104KE02D"/>
+      <property name="Digikey PN" value="490-16431-1-ND"/>
+      <property name="Mouser PN" value="GCM155R71E104KE02D"/>
+      <property name="Top Distributor" value="Digikey"/>
+      <property name="Voltage" value="25V"/>
+      <property name="Type" value="X7R, 10% tolerance"/>
+      <property name="Sheetname" value="RatKit_Power"/>
+      <property name="Sheetfile" value="RatKit_Power.kicad_sch"/>
+      <sheetpath names="/RatKit_Power/" tstamps="/a4ba36cf-91b9-4fbc-9450-abe2698063d5/"/>
+      <tstamps>adbac260-5f62-4228-92b0-fc67dba01517</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>100n</value>
+      <footprint>CMC_Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Digikey PN">490-16431-1-ND</field>
+        <field name="Manufacturer PN">GCM155R71E104KE02D</field>
+        <field name="Mouser PN">GCM155R71E104KE02D</field>
+        <field name="Top Distributor">Digikey</field>
+        <field name="Type">X7R, 10% tolerance</field>
+        <field name="Voltage">25V</field>
+      </fields>
+      <libsource lib="CMC_Capacitor" part="Non_Polar" description=""/>
+      <property name="Manufacturer PN" value="GCM155R71E104KE02D"/>
+      <property name="Digikey PN" value="490-16431-1-ND"/>
+      <property name="Mouser PN" value="GCM155R71E104KE02D"/>
+      <property name="Top Distributor" value="Digikey"/>
+      <property name="Voltage" value="25V"/>
+      <property name="Type" value="X7R, 10% tolerance"/>
+      <property name="Sheetname" value="RatKit_Power"/>
+      <property name="Sheetfile" value="RatKit_Power.kicad_sch"/>
+      <sheetpath names="/RatKit_Power/" tstamps="/a4ba36cf-91b9-4fbc-9450-abe2698063d5/"/>
+      <tstamps>e77dec4b-cfa0-4eb7-984b-cfa2e47cbd50</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>100n</value>
+      <footprint>CMC_Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Digikey PN">490-16431-1-ND</field>
+        <field name="Manufacturer PN">GCM155R71E104KE02D</field>
+        <field name="Mouser PN">GCM155R71E104KE02D</field>
+        <field name="Top Distributor">Digikey</field>
+        <field name="Type">X7R, 10% tolerance</field>
+        <field name="Voltage">25V</field>
+      </fields>
+      <libsource lib="CMC_Capacitor" part="Non_Polar" description=""/>
+      <property name="Manufacturer PN" value="GCM155R71E104KE02D"/>
+      <property name="Digikey PN" value="490-16431-1-ND"/>
+      <property name="Mouser PN" value="GCM155R71E104KE02D"/>
+      <property name="Top Distributor" value="Digikey"/>
+      <property name="Voltage" value="25V"/>
+      <property name="Type" value="X7R, 10% tolerance"/>
+      <property name="Sheetname" value="RatKit_Power"/>
+      <property name="Sheetfile" value="RatKit_Power.kicad_sch"/>
+      <sheetpath names="/RatKit_Power/" tstamps="/a4ba36cf-91b9-4fbc-9450-abe2698063d5/"/>
+      <tstamps>52d8c5be-d66a-4b0d-98eb-917e25b3b9e0</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>100n</value>
+      <footprint>CMC_Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Digikey PN">490-16431-1-ND</field>
+        <field name="Manufacturer PN">GCM155R71E104KE02D</field>
+        <field name="Mouser PN">GCM155R71E104KE02D</field>
+        <field name="Top Distributor">Digikey</field>
+        <field name="Type">X7R, 10% tolerance</field>
+        <field name="Voltage">25V</field>
+      </fields>
+      <libsource lib="CMC_Capacitor" part="Non_Polar" description=""/>
+      <property name="Manufacturer PN" value="GCM155R71E104KE02D"/>
+      <property name="Digikey PN" value="490-16431-1-ND"/>
+      <property name="Mouser PN" value="GCM155R71E104KE02D"/>
+      <property name="Top Distributor" value="Digikey"/>
+      <property name="Voltage" value="25V"/>
+      <property name="Type" value="X7R, 10% tolerance"/>
+      <property name="Sheetname" value="RatKit_Power"/>
+      <property name="Sheetfile" value="RatKit_Power.kicad_sch"/>
+      <sheetpath names="/RatKit_Power/" tstamps="/a4ba36cf-91b9-4fbc-9450-abe2698063d5/"/>
+      <tstamps>90fbbc28-8d2c-46a4-a557-30adc20939ac</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>100n</value>
+      <footprint>CMC_Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Digikey PN">490-16431-1-ND</field>
+        <field name="Manufacturer PN">GCM155R71E104KE02D</field>
+        <field name="Mouser PN">GCM155R71E104KE02D</field>
+        <field name="Top Distributor">Digikey</field>
+        <field name="Type">X7R, 10% tolerance</field>
+        <field name="Voltage">25V</field>
+      </fields>
+      <libsource lib="CMC_Capacitor" part="Non_Polar" description=""/>
+      <property name="Manufacturer PN" value="GCM155R71E104KE02D"/>
+      <property name="Digikey PN" value="490-16431-1-ND"/>
+      <property name="Mouser PN" value="GCM155R71E104KE02D"/>
+      <property name="Top Distributor" value="Digikey"/>
+      <property name="Voltage" value="25V"/>
+      <property name="Type" value="X7R, 10% tolerance"/>
+      <property name="Sheetname" value="RatKit_Power"/>
+      <property name="Sheetfile" value="RatKit_Power.kicad_sch"/>
+      <sheetpath names="/RatKit_Power/" tstamps="/a4ba36cf-91b9-4fbc-9450-abe2698063d5/"/>
+      <tstamps>33a8e1bf-9af5-480a-86b2-99a7695506f1</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>3p </value>
+      <footprint>CMC_Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Digikey PN">490-14421-1-ND</field>
+        <field name="Manufacturer PN">GCM1555C1H3R0BA16D</field>
+        <field name="Mouser PN">81-GCM1555C1H3R0BA6D </field>
+        <field name="Top Distributor">Digikey</field>
+        <field name="Type">C0G, NP0</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="CMC_Capacitor" part="Non_Polar" description=""/>
+      <property name="Manufacturer PN" value="GCM1555C1H3R0BA16D"/>
+      <property name="Digikey PN" value="490-14421-1-ND"/>
+      <property name="Mouser PN" value="81-GCM1555C1H3R0BA6D "/>
+      <property name="Top Distributor" value="Digikey"/>
+      <property name="Voltage" value="50V"/>
+      <property name="Type" value="C0G, NP0"/>
+      <property name="Sheetname" value="RatKit_Power"/>
+      <property name="Sheetfile" value="RatKit_Power.kicad_sch"/>
+      <sheetpath names="/RatKit_Power/" tstamps="/a4ba36cf-91b9-4fbc-9450-abe2698063d5/"/>
+      <tstamps>c4d7fddc-b6c2-4684-9ac4-ad5ae0df0523</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>3p </value>
+      <footprint>CMC_Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Digikey PN">490-14421-1-ND</field>
+        <field name="Manufacturer PN">GCM1555C1H3R0BA16D</field>
+        <field name="Mouser PN">81-GCM1555C1H3R0BA6D </field>
+        <field name="Top Distributor">Digikey</field>
+        <field name="Type">C0G, NP0</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="CMC_Capacitor" part="Non_Polar" description=""/>
+      <property name="Manufacturer PN" value="GCM1555C1H3R0BA16D"/>
+      <property name="Digikey PN" value="490-14421-1-ND"/>
+      <property name="Mouser PN" value="81-GCM1555C1H3R0BA6D "/>
+      <property name="Top Distributor" value="Digikey"/>
+      <property name="Voltage" value="50V"/>
+      <property name="Type" value="C0G, NP0"/>
+      <property name="Sheetname" value="RatKit_Power"/>
+      <property name="Sheetfile" value="RatKit_Power.kicad_sch"/>
+      <sheetpath names="/RatKit_Power/" tstamps="/a4ba36cf-91b9-4fbc-9450-abe2698063d5/"/>
+      <tstamps>c33e32a1-5536-4eba-aa97-ef4dabc3c5fd</tstamps>
+    </comp>
+    <comp ref="C60">
+      <value>4.7u</value>
+      <footprint>CMC_Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Digikey PN">490-GRM188Z71C475KE21JCT-ND</field>
+        <field name="Manufacturer PN">GRM188Z71C475KE21J</field>
+        <field name="Mouser PN">81-GRM188Z71C475KE1J</field>
+        <field name="Top Distributor">Digikey</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage">16V</field>
+      </fields>
+      <libsource lib="CMC_Capacitor" part="Non_Polar" description=""/>
+      <property name="Manufacturer PN" value="GRM188Z71C475KE21J"/>
+      <property name="Digikey PN" value="490-GRM188Z71C475KE21JCT-ND"/>
+      <property name="Mouser PN" value="81-GRM188Z71C475KE1J"/>
+      <property name="Top Distributor" value="Digikey"/>
+      <property name="Voltage" value="16V"/>
+      <property name="Type" value="X7R"/>
+      <property name="Sheetname" value="RatKit_Power"/>
+      <property name="Sheetfile" value="RatKit_Power.kicad_sch"/>
+      <sheetpath names="/RatKit_Power/" tstamps="/a4ba36cf-91b9-4fbc-9450-abe2698063d5/"/>
+      <tstamps>11fc0921-bd0d-41a6-b05d-47cd1c2b8813</tstamps>
+    </comp>
+    <comp ref="C61">
+      <value>0.47u</value>
+      <footprint>CMC_Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Digikey PN">490-14366-1-ND</field>
+        <field name="Manufacturer PN">GRM155R71A474KE01D</field>
+        <field name="Mouser PN">81-GRM155R71A474KE1D</field>
+        <field name="Top Distributor">Digikey</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="CMC_Capacitor" part="Non_Polar" description=""/>
+      <property name="Manufacturer PN" value="GRM155R71A474KE01D"/>
+      <property name="Digikey PN" value="490-14366-1-ND"/>
+      <property name="Mouser PN" value="81-GRM155R71A474KE1D"/>
+      <property name="Top Distributor" value="Digikey"/>
+      <property name="Voltage" value="10V"/>
+      <property name="Type" value="X7R"/>
+      <property name="Sheetname" value="RatKit_Power"/>
+      <property name="Sheetfile" value="RatKit_Power.kicad_sch"/>
+      <sheetpath names="/RatKit_Power/" tstamps="/a4ba36cf-91b9-4fbc-9450-abe2698063d5/"/>
+      <tstamps>5dd4c4af-b024-4f0e-aa30-9ad0dab924ec</tstamps>
+    </comp>
+    <comp ref="C62">
+      <value>4.7u</value>
+      <footprint>CMC_Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Digikey PN">490-GRM188Z71C475KE21JCT-ND</field>
+        <field name="Manufacturer PN">GRM188Z71C475KE21J</field>
+        <field name="Mouser PN">81-GRM188Z71C475KE1J</field>
+        <field name="Top Distributor">Digikey</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage">16V</field>
+      </fields>
+      <libsource lib="CMC_Capacitor" part="Non_Polar" description=""/>
+      <property name="Manufacturer PN" value="GRM188Z71C475KE21J"/>
+      <property name="Digikey PN" value="490-GRM188Z71C475KE21JCT-ND"/>
+      <property name="Mouser PN" value="81-GRM188Z71C475KE1J"/>
+      <property name="Top Distributor" value="Digikey"/>
+      <property name="Voltage" value="16V"/>
+      <property name="Type" value="X7R"/>
+      <property name="Sheetname" value="RatKit_Power"/>
+      <property name="Sheetfile" value="RatKit_Power.kicad_sch"/>
+      <sheetpath names="/RatKit_Power/" tstamps="/a4ba36cf-91b9-4fbc-9450-abe2698063d5/"/>
+      <tstamps>25062c32-7451-4313-9e93-384b2aaeeabd</tstamps>
+    </comp>
+    <comp ref="C63">
+      <value>0.47u</value>
+      <footprint>CMC_Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Digikey PN">490-14366-1-ND</field>
+        <field name="Manufacturer PN">GRM155R71A474KE01D</field>
+        <field name="Mouser PN">81-GRM155R71A474KE1D</field>
+        <field name="Top Distributor">Digikey</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="CMC_Capacitor" part="Non_Polar" description=""/>
+      <property name="Manufacturer PN" value="GRM155R71A474KE01D"/>
+      <property name="Digikey PN" value="490-14366-1-ND"/>
+      <property name="Mouser PN" value="81-GRM155R71A474KE1D"/>
+      <property name="Top Distributor" value="Digikey"/>
+      <property name="Voltage" value="10V"/>
+      <property name="Type" value="X7R"/>
+      <property name="Sheetname" value="RatKit_Power"/>
+      <property name="Sheetfile" value="RatKit_Power.kicad_sch"/>
+      <sheetpath names="/RatKit_Power/" tstamps="/a4ba36cf-91b9-4fbc-9450-abe2698063d5/"/>
+      <tstamps>851b1954-3f36-40e0-9439-69d2143e0420</tstamps>
+    </comp>
+    <comp ref="C64">
+      <value>0.47u</value>
+      <footprint>CMC_Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Digikey PN">490-14366-1-ND</field>
+        <field name="Manufacturer PN">GRM155R71A474KE01D</field>
+        <field name="Mouser PN">81-GRM155R71A474KE1D</field>
+        <field name="Top Distributor">Digikey</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="CMC_Capacitor" part="Non_Polar" description=""/>
+      <property name="Manufacturer PN" value="GRM155R71A474KE01D"/>
+      <property name="Digikey PN" value="490-14366-1-ND"/>
+      <property name="Mouser PN" value="81-GRM155R71A474KE1D"/>
+      <property name="Top Distributor" value="Digikey"/>
+      <property name="Voltage" value="10V"/>
+      <property name="Type" value="X7R"/>
+      <property name="Sheetname" value="RatKit_Power"/>
+      <property name="Sheetfile" value="RatKit_Power.kicad_sch"/>
+      <sheetpath names="/RatKit_Power/" tstamps="/a4ba36cf-91b9-4fbc-9450-abe2698063d5/"/>
+      <tstamps>24bf3afb-19e1-42de-b0e3-4755cb5378ca</tstamps>
+    </comp>
+    <comp ref="C65">
+      <value>10u</value>
+      <footprint>CMC_Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Digikey PN">490-10516-1-ND</field>
+        <field name="Manufacturer PN">GRM21BR71A106KA73L</field>
+        <field name="Mouser PN">81-GRM21BR71A106KA3L</field>
+        <field name="Top Distributor">Digikey</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="CMC_Capacitor" part="Non_Polar" description=""/>
+      <property name="Manufacturer PN" value="GRM21BR71A106KA73L"/>
+      <property name="Digikey PN" value="490-10516-1-ND"/>
+      <property name="Mouser PN" value="81-GRM21BR71A106KA3L"/>
+      <property name="Top Distributor" value="Digikey"/>
+      <property name="Voltage" value="10V"/>
+      <property name="Type" value="X7R"/>
+      <property name="Sheetname" value="RatKit_Power"/>
+      <property name="Sheetfile" value="RatKit_Power.kicad_sch"/>
+      <sheetpath names="/RatKit_Power/" tstamps="/a4ba36cf-91b9-4fbc-9450-abe2698063d5/"/>
+      <tstamps>00dccc71-e8fa-4986-9c5c-3f1764eba89b</tstamps>
+    </comp>
+    <comp ref="C66">
+      <value>0.1u</value>
+      <footprint>CMC_Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Digikey PN">490-13342-1-ND</field>
+        <field name="Manufacturer PN">GRM155R71H104KE14J</field>
+        <field name="Mouser PN">81-GRM155R71H104KE4J</field>
+        <field name="Top Distributor">Mouser</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="CMC_Capacitor" part="Non_Polar" description=""/>
+      <property name="Manufacturer PN" value="GRM155R71H104KE14J"/>
+      <property name="Digikey PN" value="490-13342-1-ND"/>
+      <property name="Mouser PN" value="81-GRM155R71H104KE4J"/>
+      <property name="Top Distributor" value="Mouser"/>
+      <property name="Voltage" value="50V"/>
+      <property name="Type" value="X7R"/>
+      <property name="Sheetname" value="RatKit_Power"/>
+      <property name="Sheetfile" value="RatKit_Power.kicad_sch"/>
+      <sheetpath names="/RatKit_Power/" tstamps="/a4ba36cf-91b9-4fbc-9450-abe2698063d5/"/>
+      <tstamps>d7ab3bd6-3847-4490-90fa-2a845a94774b</tstamps>
+    </comp>
+    <comp ref="C67">
+      <value>0.1u</value>
+      <footprint>CMC_Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Digikey PN">490-13342-1-ND</field>
+        <field name="Manufacturer PN">GRM155R71H104KE14J</field>
+        <field name="Mouser PN">81-GRM155R71H104KE4J</field>
+        <field name="Top Distributor">Mouser</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="CMC_Capacitor" part="Non_Polar" description=""/>
+      <property name="Manufacturer PN" value="GRM155R71H104KE14J"/>
+      <property name="Digikey PN" value="490-13342-1-ND"/>
+      <property name="Mouser PN" value="81-GRM155R71H104KE4J"/>
+      <property name="Top Distributor" value="Mouser"/>
+      <property name="Voltage" value="50V"/>
+      <property name="Type" value="X7R"/>
+      <property name="Sheetname" value="RatKit_Power"/>
+      <property name="Sheetfile" value="RatKit_Power.kicad_sch"/>
+      <sheetpath names="/RatKit_Power/" tstamps="/a4ba36cf-91b9-4fbc-9450-abe2698063d5/"/>
+      <tstamps>084e9fb2-5ba0-48d5-b1ab-5417a64b470b</tstamps>
+    </comp>
+    <comp ref="C68">
+      <value>10u</value>
+      <footprint>CMC_Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Digikey PN">490-10516-1-ND</field>
+        <field name="Manufacturer PN">GRM21BR71A106KA73L</field>
+        <field name="Mouser PN">81-GRM21BR71A106KA3L</field>
+        <field name="Top Distributor">Digikey</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="CMC_Capacitor" part="Non_Polar" description=""/>
+      <property name="Manufacturer PN" value="GRM21BR71A106KA73L"/>
+      <property name="Digikey PN" value="490-10516-1-ND"/>
+      <property name="Mouser PN" value="81-GRM21BR71A106KA3L"/>
+      <property name="Top Distributor" value="Digikey"/>
+      <property name="Voltage" value="10V"/>
+      <property name="Type" value="X7R"/>
+      <property name="Sheetname" value="RatKit_Power"/>
+      <property name="Sheetfile" value="RatKit_Power.kicad_sch"/>
+      <sheetpath names="/RatKit_Power/" tstamps="/a4ba36cf-91b9-4fbc-9450-abe2698063d5/"/>
+      <tstamps>dd93ec60-b84b-4853-b486-c06d6c1e5026</tstamps>
+    </comp>
+    <comp ref="C69">
+      <value>0.1u</value>
+      <footprint>CMC_Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Digikey PN">490-13342-1-ND</field>
+        <field name="Manufacturer PN">GRM155R71H104KE14J</field>
+        <field name="Mouser PN">81-GRM155R71H104KE4J</field>
+        <field name="Top Distributor">Mouser</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="CMC_Capacitor" part="Non_Polar" description=""/>
+      <property name="Manufacturer PN" value="GRM155R71H104KE14J"/>
+      <property name="Digikey PN" value="490-13342-1-ND"/>
+      <property name="Mouser PN" value="81-GRM155R71H104KE4J"/>
+      <property name="Top Distributor" value="Mouser"/>
+      <property name="Voltage" value="50V"/>
+      <property name="Type" value="X7R"/>
+      <property name="Sheetname" value="RatKit_Power"/>
+      <property name="Sheetfile" value="RatKit_Power.kicad_sch"/>
+      <sheetpath names="/RatKit_Power/" tstamps="/a4ba36cf-91b9-4fbc-9450-abe2698063d5/"/>
+      <tstamps>4f6e4ed2-0548-4dcb-9605-a380c9708b1d</tstamps>
+    </comp>
+    <comp ref="C70">
+      <value>10u</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Digikey PN">490-10516-1-ND</field>
+        <field name="Manufacturer PN">GRM21BR71A106KA73L</field>
+        <field name="Mouser PN">81-GRM21BR71A106KA3L</field>
+        <field name="Top Distributor">Digikey</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="CMC_Capacitor" part="Non_Polar" description=""/>
+      <property name="Manufacturer PN" value="GRM21BR71A106KA73L"/>
+      <property name="Digikey PN" value="490-10516-1-ND"/>
+      <property name="Mouser PN" value="81-GRM21BR71A106KA3L"/>
+      <property name="Top Distributor" value="Digikey"/>
+      <property name="Voltage" value="10V"/>
+      <property name="Type" value="X7R"/>
+      <property name="Sheetname" value="RatKit_Power"/>
+      <property name="Sheetfile" value="RatKit_Power.kicad_sch"/>
+      <sheetpath names="/RatKit_Power/" tstamps="/a4ba36cf-91b9-4fbc-9450-abe2698063d5/"/>
+      <tstamps>b3c33da2-4a7d-409d-9c4f-2cdcb209d91f</tstamps>
+    </comp>
+    <comp ref="C71">
+      <value>0.1u</value>
+      <footprint>CMC_Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Digikey PN">490-13342-1-ND</field>
+        <field name="Manufacturer PN">GRM155R71H104KE14J</field>
+        <field name="Mouser PN">81-GRM155R71H104KE4J</field>
+        <field name="Top Distributor">Mouser</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="CMC_Capacitor" part="Non_Polar" description=""/>
+      <property name="Manufacturer PN" value="GRM155R71H104KE14J"/>
+      <property name="Digikey PN" value="490-13342-1-ND"/>
+      <property name="Mouser PN" value="81-GRM155R71H104KE4J"/>
+      <property name="Top Distributor" value="Mouser"/>
+      <property name="Voltage" value="50V"/>
+      <property name="Type" value="X7R"/>
+      <property name="Sheetname" value="RatKit_Power"/>
+      <property name="Sheetfile" value="RatKit_Power.kicad_sch"/>
+      <sheetpath names="/RatKit_Power/" tstamps="/a4ba36cf-91b9-4fbc-9450-abe2698063d5/"/>
+      <tstamps>ce4009ae-f26f-4bc9-9e43-f215f6dfa070</tstamps>
+    </comp>
+    <comp ref="J100">
+      <value>Conn_FPC_1row_20pin</value>
+      <footprint>CMC_Conn:Molex_EasyOn_FFCFPC_2004850020</footprint>
+      <fields>
+        <field name="Alternate">2004850420</field>
+        <field name="Digikey PN">900-2004850020TR-ND</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="Manufacturer PN">2004850020</field>
+        <field name="Mouser PN">583-200485-0020</field>
+        <field name="Top Distributor">Mouser</field>
+      </fields>
+      <libsource lib="CMC_Connector" part="Conn_FPC_1row_20pin" description=""/>
+      <property name="Manufacturer" value="Molex"/>
+      <property name="Manufacturer PN" value="2004850020"/>
+      <property name="Digikey PN" value="900-2004850020TR-ND"/>
+      <property name="Mouser PN" value="583-200485-0020"/>
+      <property name="Top Distributor" value="Mouser"/>
+      <property name="Alternate" value="2004850420"/>
+      <property name="Sheetname" value="RatKit_Power"/>
+      <property name="Sheetfile" value="RatKit_Power.kicad_sch"/>
+      <sheetpath names="/RatKit_Power/" tstamps="/a4ba36cf-91b9-4fbc-9450-abe2698063d5/"/>
+      <tstamps>e320ef1d-1a85-48fc-9ad1-a3d4d961cdaa</tstamps>
+    </comp>
+    <comp ref="J101">
+      <value>Conn_01x01</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Description">Contact Length Mating (w board)=0.230"=5.84mm, Contact Length Post=0.200"=5.08mm</field>
+        <field name="Digikey PN">SAM1038-01-ND</field>
+        <field name="Manufacturer">Samtec</field>
+        <field name="Manufacturer PN">TSW-101-08-G-S</field>
+        <field name="Mouser PN">200-TSW10108GS</field>
+        <field name="Top Distributor">Mouser</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer" value="Samtec"/>
+      <property name="Manufacturer PN" value="TSW-101-08-G-S"/>
+      <property name="Digikey PN" value="SAM1038-01-ND"/>
+      <property name="Mouser PN" value="200-TSW10108GS"/>
+      <property name="Top Distributor" value="Mouser"/>
+      <property name="Description" value="Contact Length Mating (w board)=0.230&quot;=5.84mm, Contact Length Post=0.200&quot;=5.08mm"/>
+      <property name="Sheetname" value="RatKit_Power"/>
+      <property name="Sheetfile" value="RatKit_Power.kicad_sch"/>
+      <sheetpath names="/RatKit_Power/" tstamps="/a4ba36cf-91b9-4fbc-9450-abe2698063d5/"/>
+      <tstamps>96efd573-a995-4027-b130-84b32ef48181</tstamps>
+    </comp>
+    <comp ref="J102">
+      <value>Conn_01x01</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Description">Contact Length Mating (w board)=0.230"=5.84mm, Contact Length Post=0.200"=5.08mm</field>
+        <field name="Digikey PN">SAM1038-01-ND</field>
+        <field name="Manufacturer">Samtec</field>
+        <field name="Manufacturer PN">TSW-101-08-G-S</field>
+        <field name="Mouser PN">200-TSW10108GS</field>
+        <field name="Top Distributor">Mouser</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer" value="Samtec"/>
+      <property name="Manufacturer PN" value="TSW-101-08-G-S"/>
+      <property name="Digikey PN" value="SAM1038-01-ND"/>
+      <property name="Mouser PN" value="200-TSW10108GS"/>
+      <property name="Top Distributor" value="Mouser"/>
+      <property name="Description" value="Contact Length Mating (w board)=0.230&quot;=5.84mm, Contact Length Post=0.200&quot;=5.08mm"/>
+      <property name="Sheetname" value="RatKit_Power"/>
+      <property name="Sheetfile" value="RatKit_Power.kicad_sch"/>
+      <sheetpath names="/RatKit_Power/" tstamps="/a4ba36cf-91b9-4fbc-9450-abe2698063d5/"/>
+      <tstamps>b9062fb8-eb02-4353-a013-7aea9f2f5051</tstamps>
+    </comp>
+    <comp ref="J103">
+      <value>Conn_01x01</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Description">Contact Length Mating (w board)=0.230"=5.84mm, Contact Length Post=0.200"=5.08mm</field>
+        <field name="Digikey PN">SAM1038-01-ND</field>
+        <field name="Manufacturer">Samtec</field>
+        <field name="Manufacturer PN">TSW-101-08-G-S</field>
+        <field name="Mouser PN">200-TSW10108GS</field>
+        <field name="Top Distributor">Mouser</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer" value="Samtec"/>
+      <property name="Manufacturer PN" value="TSW-101-08-G-S"/>
+      <property name="Digikey PN" value="SAM1038-01-ND"/>
+      <property name="Mouser PN" value="200-TSW10108GS"/>
+      <property name="Top Distributor" value="Mouser"/>
+      <property name="Description" value="Contact Length Mating (w board)=0.230&quot;=5.84mm, Contact Length Post=0.200&quot;=5.08mm"/>
+      <property name="Sheetname" value="RatKit_Power"/>
+      <property name="Sheetfile" value="RatKit_Power.kicad_sch"/>
+      <sheetpath names="/RatKit_Power/" tstamps="/a4ba36cf-91b9-4fbc-9450-abe2698063d5/"/>
+      <tstamps>9827a57d-e9c1-47e9-908f-33d87e30339b</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="CMC_Antenna" part="A5887H">
+      <fields>
+        <field name="Reference">AE</field>
+        <field name="Value">A5887H</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC1" type="no_connect"/>
+        <pin num="2" name="Feed" type="bidirectional"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="NC4" type="no_connect"/>
+        <pin num="5" name="NC5" type="no_connect"/>
+      </pins>
+    </libpart>
+    <libpart lib="CMC_Capacitor" part="Non_Polar">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">Non_Polar</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CMC_Connector" part="Conn_50mil_2row_10pin">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_50mil_2row_10pin</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CMC_Connector" part="Conn_ARM_JTAG_SWD_10pin">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_ARM_JTAG_SWD_10pin</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VTref" type="power_in"/>
+        <pin num="2" name="SWDIO/TMS" type="passive"/>
+        <pin num="3" name="GND3" type="power_in"/>
+        <pin num="4" name="SWDCLK/TCK" type="passive"/>
+        <pin num="5" name="GND5" type="power_in"/>
+        <pin num="6" name="SWO/TDO" type="passive"/>
+        <pin num="8" name="NC/TDI" type="passive"/>
+        <pin num="9" name="GNDDSelect" type="passive"/>
+        <pin num="10" name="nRESET" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CMC_Connector" part="Conn_FPC_1row_20pin">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_FPC_1row_20pin</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CMC_Connector" part="Probe_Pad">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Probe_Pad</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RE0" type="passive"/>
+        <pin num="2" name="CE0" type="passive"/>
+        <pin num="3" name="WE0" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CMC_Crystal" part="Crystal_2pin">
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_2pin</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CMC_Crystal" part="Crystal_4pin2GND">
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_4pin2GND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CMC_Fiducials" part="Pinning_NPTH_40mil">
+      <fields>
+        <field name="Reference">FD</field>
+        <field name="Value">Pinning_NPTH_40mil</field>
+      </fields>
+    </libpart>
+    <libpart lib="CMC_Inductor" part="L">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CMC_LED" part="LED_GREEN">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_GREEN</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CMC_Logo" part="CMC_White_Logo_180x110mil">
+      <fields>
+        <field name="Reference">G</field>
+        <field name="Value">CMC_White_Logo_180x110mil</field>
+      </fields>
+    </libpart>
+    <libpart lib="CMC_MCU_ST_BlueNRG_LP" part="BLUENRG_355AC">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BLUENRG_355AC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PB3" type="bidirectional"/>
+        <pin num="2" name="PB2" type="bidirectional"/>
+        <pin num="3" name="PB1" type="bidirectional"/>
+        <pin num="4" name="PB0" type="bidirectional"/>
+        <pin num="5" name="PA11" type="bidirectional"/>
+        <pin num="6" name="PA10" type="bidirectional"/>
+        <pin num="7" name="PA9" type="bidirectional"/>
+        <pin num="8" name="PA8" type="bidirectional"/>
+        <pin num="9" name="PA0" type="bidirectional"/>
+        <pin num="10" name="PA1" type="bidirectional"/>
+        <pin num="11" name="PA2" type="bidirectional"/>
+        <pin num="12" name="PA3" type="bidirectional"/>
+        <pin num="13" name="VDD2" type="power_in"/>
+        <pin num="14" name="RF1" type="bidirectional"/>
+        <pin num="15" name="VDDRF" type="power_in"/>
+        <pin num="16" name="OSCOUT" type="bidirectional"/>
+        <pin num="17" name="OSCIN" type="bidirectional"/>
+        <pin num="18" name="PB15" type="bidirectional"/>
+        <pin num="19" name="PB14" type="bidirectional"/>
+        <pin num="20" name="PB13_XTAL1" type="bidirectional"/>
+        <pin num="21" name="PB12_XTAL0" type="bidirectional"/>
+        <pin num="22" name="VFBSD" type="power_in"/>
+        <pin num="23" name="VSSSD" type="power_in"/>
+        <pin num="24" name="VLXSD" type="power_in"/>
+        <pin num="25" name="VDDSD" type="power_in"/>
+        <pin num="26" name="RSTN" type="bidirectional"/>
+        <pin num="27" name="VCAP" type="power_in"/>
+        <pin num="28" name="PB7" type="bidirectional"/>
+        <pin num="29" name="PB6" type="bidirectional"/>
+        <pin num="30" name="PB5" type="bidirectional"/>
+        <pin num="31" name="PB4" type="bidirectional"/>
+        <pin num="32" name="VDD1" type="power_in"/>
+        <pin num="33" name="EP" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="CMC_Potentiostat" part="AD5941BCPZ">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AD5941BCPZ</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RC0_2" type="input"/>
+        <pin num="2" name="RC0_1" type="input"/>
+        <pin num="3" name="RC0_0" type="input"/>
+        <pin num="4" name="VREF_2V5" type="input"/>
+        <pin num="5" name="AVDD_REG" type="power_in"/>
+        <pin num="6" name="DVDD" type="power_in"/>
+        <pin num="7" name="DNC" type="no_connect"/>
+        <pin num="8" name="VBIAS0" type="output"/>
+        <pin num="9" name="VZERO0" type="output"/>
+        <pin num="10" name="DNC" type="no_connect"/>
+        <pin num="11" name="XTALI" type="input"/>
+        <pin num="12" name="XTALO" type="output"/>
+        <pin num="13" name="DGND" type="power_in"/>
+        <pin num="14" name="DVDD_REG_1V8" type="power_in"/>
+        <pin num="15" name="CSn" type="bidirectional"/>
+        <pin num="16" name="SCLK" type="input"/>
+        <pin num="17" name="MOSI" type="input"/>
+        <pin num="18" name="MISO" type="output"/>
+        <pin num="19" name="GPIO0" type="bidirectional"/>
+        <pin num="20" name="GPIO1" type="bidirectional"/>
+        <pin num="21" name="GPIO2" type="bidirectional"/>
+        <pin num="22" name="RESETn" type="input"/>
+        <pin num="23" name="DGND" type="power_in"/>
+        <pin num="24" name="DNC" type="no_connect"/>
+        <pin num="25" name="DGND" type="power_in"/>
+        <pin num="26" name="IOVDD" type="power_in"/>
+        <pin num="27" name="AFE3" type="bidirectional"/>
+        <pin num="28" name="AFE4" type="bidirectional"/>
+        <pin num="29" name="AGND" type="power_in"/>
+        <pin num="30" name="AVDD" type="power_in"/>
+        <pin num="31" name="VBIAS_CAP" type="input"/>
+        <pin num="32" name="RCAL0" type="passive"/>
+        <pin num="33" name="RCAL1" type="passive"/>
+        <pin num="34" name="AFE1" type="bidirectional"/>
+        <pin num="35" name="AFE2" type="bidirectional"/>
+        <pin num="36" name="AIN3_BUF_VREF1V8" type="bidirectional"/>
+        <pin num="37" name="AIN2" type="input"/>
+        <pin num="38" name="AIN1" type="bidirectional"/>
+        <pin num="39" name="AIN0" type="bidirectional"/>
+        <pin num="40" name="AIN4_LPF0" type="bidirectional"/>
+        <pin num="41" name="AVDD" type="power_in"/>
+        <pin num="42" name="AGND" type="power_in"/>
+        <pin num="43" name="VREF_1V8" type="input"/>
+        <pin num="44" name="AGND_REF" type="power_in"/>
+        <pin num="45" name="SE0" type="input"/>
+        <pin num="46" name="DE0" type="input"/>
+        <pin num="47" name="CE0" type="input"/>
+        <pin num="48" name="RE0" type="input"/>
+        <pin num="49" name="EP" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="CMC_RF_Filter" part="2450LP14B100">
+      <fields>
+        <field name="Reference">AT</field>
+        <field name="Value">2450LP14B100</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G1" type="power_in"/>
+        <pin num="2" name="IO2" type="bidirectional"/>
+        <pin num="3" name="G3" type="power_in"/>
+        <pin num="4" name="G4" type="power_in"/>
+        <pin num="5" name="IO5" type="bidirectional"/>
+        <pin num="6" name="G6" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="CMC_Resistor" part="R">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CMC_Switches" part="Switch_SPST_NO">
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">Switch_SPST_NO</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x01">
+      <description>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="CMC_Antenna">
+      <uri>C:\one\co_kicad6\ratkit\ratkit_proto\rkp_hw\ratkit_design/libraries/symbols/CMC_Antenna.kicad_sym</uri>
+    </library>
+    <library logical="CMC_Capacitor">
+      <uri>C:\one\co_kicad6\ratkit\ratkit_proto\rkp_hw\ratkit_design/libraries/symbols/CMC_Capacitor.kicad_sym</uri>
+    </library>
+    <library logical="CMC_Connector">
+      <uri>C:\one\co_kicad6\ratkit\ratkit_proto\rkp_hw\ratkit_design/libraries/symbols/CMC_Connector.kicad_sym</uri>
+    </library>
+    <library logical="CMC_Crystal">
+      <uri>C:\one\co_kicad6\ratkit\ratkit_proto\rkp_hw\ratkit_design/libraries/symbols/CMC_Crystal.kicad_sym</uri>
+    </library>
+    <library logical="CMC_Fiducials">
+      <uri>C:/Users/jmillar/OneDrive - CMC Microsystems/co_kicad6/ratkit/ratkit_proto/rkp_hw/ratkit_design/libraries/symbols/CMC_Fiducials.kicad_sym</uri>
+    </library>
+    <library logical="CMC_Inductor">
+      <uri>C:\one\co_kicad6\ratkit\ratkit_proto\rkp_hw\ratkit_design/libraries/symbols/CMC_Inductor.kicad_sym</uri>
+    </library>
+    <library logical="CMC_LED">
+      <uri>C:\one\co_kicad6\ratkit\ratkit_proto\rkp_hw\ratkit_design/libraries/symbols/CMC_LED.kicad_sym</uri>
+    </library>
+    <library logical="CMC_Logo">
+      <uri>C:/Users/jmillar/OneDrive - CMC Microsystems/co_kicad6/ratkit/ratkit_proto/rkp_hw/ratkit_design/libraries/symbols/CMC_Logo.kicad_sym</uri>
+    </library>
+    <library logical="CMC_MCU_ST_BlueNRG_LP">
+      <uri>C:\one\co_kicad6\ratkit\ratkit_proto\rkp_hw\ratkit_design/libraries/symbols/CMC_MCU_ST_BlueNRG_LP.kicad_sym</uri>
+    </library>
+    <library logical="CMC_Potentiostat">
+      <uri>C:\one\co_kicad6\ratkit\ratkit_proto\rkp_hw\ratkit_design/libraries/symbols/CMC_Potentiostat.kicad_sym</uri>
+    </library>
+    <library logical="CMC_RF_Filter">
+      <uri>C:\one\co_kicad6\ratkit\ratkit_proto\rkp_hw\ratkit_design/libraries/symbols/CMC_RF_Filter.kicad_sym</uri>
+    </library>
+    <library logical="CMC_Resistor">
+      <uri>C:\one\co_kicad6\ratkit\ratkit_proto\rkp_hw\ratkit_design/libraries/symbols/CMC_Resistor.kicad_sym</uri>
+    </library>
+    <library logical="CMC_Switches">
+      <uri>C:\one\co_kicad6\ratkit\ratkit_proto\rkp_hw\ratkit_design/libraries/symbols/CMC_Switches.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/RatKit_Main/AE50">
+      <node ref="AE1" pin="2" pinfunction="Feed" pintype="bidirectional"/>
+      <node ref="AT1" pin="5" pinfunction="IO5" pintype="bidirectional"/>
+    </net>
+    <net code="2" name="/RatKit_Main/CE0">
+      <node ref="J50" pin="2" pinfunction="CE0" pintype="passive"/>
+      <node ref="U50" pin="47" pinfunction="CE0" pintype="input"/>
+    </net>
+    <net code="3" name="/RatKit_Main/DE0">
+      <node ref="J51" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U50" pin="46" pinfunction="DE0" pintype="input"/>
+    </net>
+    <net code="4" name="/RatKit_Main/E_AFE1">
+      <node ref="J52" pin="10" pinfunction="10" pintype="passive"/>
+      <node ref="U50" pin="34" pinfunction="AFE1" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/RatKit_Main/E_AFE2">
+      <node ref="J52" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="U50" pin="35" pinfunction="AFE2" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/RatKit_Main/E_AFE3">
+      <node ref="J52" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="U50" pin="27" pinfunction="AFE3" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/RatKit_Main/E_AFE4">
+      <node ref="J52" pin="9" pinfunction="9" pintype="passive"/>
+      <node ref="U50" pin="28" pinfunction="AFE4" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/RatKit_Main/E_AIN0">
+      <node ref="J52" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U50" pin="39" pinfunction="AIN0" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="/RatKit_Main/E_AIN1">
+      <node ref="J52" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="U50" pin="38" pinfunction="AIN1" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="/RatKit_Main/E_AIN2">
+      <node ref="J52" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="U50" pin="37" pinfunction="AIN2" pintype="input"/>
+    </net>
+    <net code="11" name="/RatKit_Main/E_AIN3">
+      <node ref="J52" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="U50" pin="36" pinfunction="AIN3_BUF_VREF1V8" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="/RatKit_Main/INT_pACKOUT_uIn">
+      <node ref="U1" pin="30" pinfunction="PB5" pintype="bidirectional"/>
+      <node ref="U50" pin="19" pinfunction="GPIO0" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="/RatKit_Main/INT_pINTOUT_uIn">
+      <node ref="U1" pin="29" pinfunction="PB6" pintype="bidirectional"/>
+      <node ref="U50" pin="20" pinfunction="GPIO1" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="/RatKit_Main/INT_pIn_uACKOUT">
+      <node ref="U1" pin="28" pinfunction="PB7" pintype="bidirectional"/>
+      <node ref="U50" pin="21" pinfunction="GPIO2" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="/RatKit_Main/L4SMPSa">
+      <node ref="U1" pin="24" pinfunction="VLXSD" pintype="power_in"/>
+    </net>
+    <net code="16" name="/RatKit_Main/L4SMPSb">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="22" pinfunction="VFBSD" pintype="power_in"/>
+    </net>
+    <net code="17" name="/RatKit_Main/LPF0">
+      <node ref="C53" pin="1" pintype="passive"/>
+      <node ref="C54" pin="1" pintype="passive"/>
+      <node ref="U50" pin="40" pinfunction="AIN4_LPF0" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="/RatKit_Main/OSCIN_HS">
+      <node ref="U1" pin="17" pinfunction="OSCIN" pintype="bidirectional"/>
+      <node ref="Y1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="19" name="/RatKit_Main/OSCOUT_HS">
+      <node ref="U1" pin="16" pinfunction="OSCOUT" pintype="bidirectional"/>
+      <node ref="Y1" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="20" name="/RatKit_Main/PB0_ADC_VINM1">
+      <node ref="J2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="PB0" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="/RatKit_Main/PB1_ADC_VINP1">
+      <node ref="J2" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="PB1" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="/RatKit_Main/PB2_ADC_VINM0">
+      <node ref="J2" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="PB2" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="/RatKit_Main/PB3_ADC_VINP0">
+      <node ref="J2" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="PB3" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="/RatKit_Main/PB4_pRSTN">
+      <node ref="J2" pin="10" pinfunction="10" pintype="passive"/>
+      <node ref="R52" pin="2" pintype="passive"/>
+      <node ref="U1" pin="31" pinfunction="PB4" pintype="bidirectional"/>
+      <node ref="U50" pin="22" pinfunction="RESETn" pintype="input"/>
+    </net>
+    <net code="25" name="/RatKit_Main/RC0_0">
+      <node ref="C57" pin="1" pintype="passive"/>
+      <node ref="R51" pin="1" pintype="passive"/>
+      <node ref="U50" pin="3" pinfunction="RC0_0" pintype="input"/>
+    </net>
+    <net code="26" name="/RatKit_Main/RC0_1">
+      <node ref="C57" pin="2" pintype="passive"/>
+      <node ref="R51" pin="2" pintype="passive"/>
+      <node ref="U50" pin="2" pinfunction="RC0_1" pintype="input"/>
+    </net>
+    <net code="27" name="/RatKit_Main/RCAL0">
+      <node ref="R50" pin="2" pintype="passive"/>
+      <node ref="U50" pin="32" pinfunction="RCAL0" pintype="passive"/>
+    </net>
+    <net code="28" name="/RatKit_Main/RCAL1">
+      <node ref="R50" pin="1" pintype="passive"/>
+      <node ref="U50" pin="33" pinfunction="RCAL1" pintype="passive"/>
+    </net>
+    <net code="29" name="/RatKit_Main/RE0">
+      <node ref="J50" pin="1" pinfunction="RE0" pintype="passive"/>
+      <node ref="U50" pin="48" pinfunction="RE0" pintype="input"/>
+    </net>
+    <net code="30" name="/RatKit_Main/RF">
+      <node ref="AT1" pin="2" pinfunction="IO2" pintype="bidirectional"/>
+      <node ref="U1" pin="14" pinfunction="RF1" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="/RatKit_Main/SPI1_MISO">
+      <node ref="U1" pin="6" pinfunction="PA10" pintype="bidirectional"/>
+      <node ref="U50" pin="18" pinfunction="MISO" pintype="output"/>
+    </net>
+    <net code="32" name="/RatKit_Main/SPI1_MOSI">
+      <node ref="U1" pin="8" pinfunction="PA8" pintype="bidirectional"/>
+      <node ref="U50" pin="17" pinfunction="MOSI" pintype="input"/>
+    </net>
+    <net code="33" name="/RatKit_Main/SPI1_NSS">
+      <node ref="U1" pin="5" pinfunction="PA11" pintype="bidirectional"/>
+      <node ref="U50" pin="15" pinfunction="CSn" pintype="bidirectional"/>
+    </net>
+    <net code="34" name="/RatKit_Main/SPI1_SCK">
+      <node ref="U1" pin="7" pinfunction="PA9" pintype="bidirectional"/>
+      <node ref="U50" pin="16" pinfunction="SCLK" pintype="input"/>
+    </net>
+    <net code="35" name="/RatKit_Main/VBias0">
+      <node ref="C51" pin="1" pintype="passive"/>
+      <node ref="U50" pin="8" pinfunction="VBIAS0" pintype="output"/>
+    </net>
+    <net code="36" name="/RatKit_Main/VZero0">
+      <node ref="C52" pin="1" pintype="passive"/>
+      <node ref="U50" pin="9" pinfunction="VZERO0" pintype="output"/>
+    </net>
+    <net code="37" name="/RatKit_Main/WE0">
+      <node ref="J50" pin="3" pinfunction="WE0" pintype="passive"/>
+      <node ref="U50" pin="45" pinfunction="SE0" pintype="input"/>
+    </net>
+    <net code="38" name="/RatKit_Main/XTAL0_LS">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="21" pinfunction="PB12_XTAL0" pintype="bidirectional"/>
+      <node ref="Y2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="39" name="/RatKit_Main/XTAL1_LS">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="20" pinfunction="PB13_XTAL1" pintype="bidirectional"/>
+      <node ref="Y2" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="40" name="/RatKit_Main/pXTAL0">
+      <node ref="U50" pin="12" pinfunction="XTALO" pintype="output"/>
+      <node ref="Y50" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="41" name="/RatKit_Main/pXTAL1">
+      <node ref="U50" pin="11" pinfunction="XTALI" pintype="input"/>
+      <node ref="Y50" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="42" name="/RatKit_Main/uI2C1_SCL">
+      <node ref="J2" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="PA0" pintype="bidirectional"/>
+    </net>
+    <net code="43" name="/RatKit_Main/uI2C1_SDA">
+      <node ref="J2" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="PA1" pintype="bidirectional"/>
+    </net>
+    <net code="44" name="/RatKit_Main/uI2C1_SMBA">
+      <node ref="J2" pin="9" pinfunction="9" pintype="passive"/>
+      <node ref="U1" pin="18" pinfunction="PB15" pintype="bidirectional"/>
+    </net>
+    <net code="45" name="/RatKit_Main/uRSTN">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="J1" pin="10" pinfunction="nRESET" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="S1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="26" pinfunction="RSTN" pintype="bidirectional"/>
+    </net>
+    <net code="46" name="/RatKit_Main/uSWDCLK">
+      <node ref="J1" pin="4" pinfunction="SWDCLK/TCK" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="PA3" pintype="bidirectional"/>
+    </net>
+    <net code="47" name="/RatKit_Main/uSWDIO">
+      <node ref="J1" pin="2" pinfunction="SWDIO/TMS" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="PA2" pintype="bidirectional"/>
+    </net>
+    <net code="48" name="/RatKit_Main/uVCAP">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="27" pinfunction="VCAP" pintype="power_in"/>
+    </net>
+    <net code="49" name="GND">
+      <node ref="AE1" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="AT1" pin="1" pinfunction="G1" pintype="power_in"/>
+      <node ref="AT1" pin="3" pinfunction="G3" pintype="power_in"/>
+      <node ref="AT1" pin="4" pinfunction="G4" pintype="power_in"/>
+      <node ref="AT1" pin="6" pinfunction="G6" pintype="power_in"/>
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C51" pin="2" pintype="passive"/>
+      <node ref="C52" pin="2" pintype="passive"/>
+      <node ref="C53" pin="2" pintype="passive"/>
+      <node ref="C54" pin="2" pintype="passive"/>
+      <node ref="C55" pin="2" pintype="passive"/>
+      <node ref="C56" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C60" pin="2" pintype="passive"/>
+      <node ref="C61" pin="2" pintype="passive"/>
+      <node ref="C62" pin="2" pintype="passive"/>
+      <node ref="C63" pin="2" pintype="passive"/>
+      <node ref="C64" pin="2" pintype="passive"/>
+      <node ref="C65" pin="2" pintype="passive"/>
+      <node ref="C66" pin="2" pintype="passive"/>
+      <node ref="C67" pin="2" pintype="passive"/>
+      <node ref="C68" pin="2" pintype="passive"/>
+      <node ref="C69" pin="2" pintype="passive"/>
+      <node ref="C70" pin="2" pintype="passive"/>
+      <node ref="C71" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="GND3" pintype="power_in"/>
+      <node ref="J1" pin="5" pinfunction="GND5" pintype="power_in"/>
+      <node ref="J100" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J100" pin="18" pinfunction="Pin_18" pintype="passive"/>
+      <node ref="J100" pin="19" pinfunction="Pin_19" pintype="passive"/>
+      <node ref="J100" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J100" pin="20" pinfunction="Pin_20" pintype="passive"/>
+      <node ref="J100" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J102" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J52" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U1" pin="23" pinfunction="VSSSD" pintype="power_in"/>
+      <node ref="U1" pin="33" pinfunction="EP" pintype="power_in"/>
+      <node ref="U50" pin="13" pinfunction="DGND" pintype="power_in"/>
+      <node ref="U50" pin="23" pinfunction="DGND" pintype="power_in"/>
+      <node ref="U50" pin="25" pinfunction="DGND" pintype="power_in"/>
+      <node ref="U50" pin="29" pinfunction="AGND" pintype="power_in"/>
+      <node ref="U50" pin="42" pinfunction="AGND" pintype="power_in"/>
+      <node ref="U50" pin="44" pinfunction="AGND_REF" pintype="power_in"/>
+      <node ref="U50" pin="49" pinfunction="EP" pintype="power_in"/>
+      <node ref="Y1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Y1" pin="4" pinfunction="4" pintype="passive"/>
+    </net>
+    <net code="50" name="Net-(C55-Pad1)">
+      <node ref="C55" pin="1" pintype="passive"/>
+      <node ref="Y50" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="51" name="Net-(C56-Pad1)">
+      <node ref="C56" pin="1" pintype="passive"/>
+      <node ref="Y50" pin="4" pinfunction="4" pintype="passive"/>
+    </net>
+    <net code="52" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="53" name="Net-(R2-Pad1)">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="19" pinfunction="PB14" pintype="bidirectional"/>
+    </net>
+    <net code="54" name="Net-(R4-Pad1)">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="S1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="55" name="V_Blue">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="VTref" pintype="power_in"/>
+      <node ref="J100" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J100" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="J100" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="J100" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="J101" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="VDD2" pintype="power_in"/>
+      <node ref="U1" pin="15" pinfunction="VDDRF" pintype="power_in"/>
+      <node ref="U1" pin="25" pinfunction="VDDSD" pintype="power_in"/>
+      <node ref="U1" pin="32" pinfunction="VDD1" pintype="power_in"/>
+    </net>
+    <net code="56" name="V_Pot">
+      <node ref="C65" pin="1" pintype="passive"/>
+      <node ref="C66" pin="1" pintype="passive"/>
+      <node ref="C67" pin="1" pintype="passive"/>
+      <node ref="C68" pin="1" pintype="passive"/>
+      <node ref="C69" pin="1" pintype="passive"/>
+      <node ref="C70" pin="1" pintype="passive"/>
+      <node ref="C71" pin="1" pintype="passive"/>
+      <node ref="J100" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="J100" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="J100" pin="16" pinfunction="Pin_16" pintype="passive"/>
+      <node ref="J100" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J100" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J100" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J103" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J52" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R52" pin="1" pintype="passive"/>
+      <node ref="U50" pin="26" pinfunction="IOVDD" pintype="power_in"/>
+      <node ref="U50" pin="30" pinfunction="AVDD" pintype="power_in"/>
+      <node ref="U50" pin="41" pinfunction="AVDD" pintype="power_in"/>
+      <node ref="U50" pin="6" pinfunction="DVDD" pintype="power_in"/>
+    </net>
+    <net code="57" name="pAVDD_Reg">
+      <node ref="C64" pin="1" pintype="passive"/>
+      <node ref="U50" pin="5" pinfunction="AVDD_REG" pintype="power_in"/>
+    </net>
+    <net code="58" name="pDVDD_Reg_1V8">
+      <node ref="C62" pin="1" pintype="passive"/>
+      <node ref="U50" pin="14" pinfunction="DVDD_REG_1V8" pintype="power_in"/>
+    </net>
+    <net code="59" name="pVbias_Cap">
+      <node ref="C63" pin="1" pintype="passive"/>
+      <node ref="U50" pin="31" pinfunction="VBIAS_CAP" pintype="input"/>
+    </net>
+    <net code="60" name="pVref_1V8">
+      <node ref="C61" pin="1" pintype="passive"/>
+      <node ref="U50" pin="43" pinfunction="VREF_1V8" pintype="input"/>
+    </net>
+    <net code="61" name="pVref_2V5">
+      <node ref="C60" pin="1" pintype="passive"/>
+      <node ref="U50" pin="4" pinfunction="VREF_2V5" pintype="input"/>
+    </net>
+    <net code="62" name="unconnected-(AE1-Pad1)">
+      <node ref="AE1" pin="1" pinfunction="NC1" pintype="no_connect"/>
+    </net>
+    <net code="63" name="unconnected-(AE1-Pad4)">
+      <node ref="AE1" pin="4" pinfunction="NC4" pintype="no_connect"/>
+    </net>
+    <net code="64" name="unconnected-(AE1-Pad5)">
+      <node ref="AE1" pin="5" pinfunction="NC5" pintype="no_connect"/>
+    </net>
+    <net code="65" name="unconnected-(J1-Pad6)">
+      <node ref="J1" pin="6" pinfunction="SWO/TDO" pintype="passive+no_connect"/>
+    </net>
+    <net code="66" name="unconnected-(J1-Pad8)">
+      <node ref="J1" pin="8" pinfunction="NC/TDI" pintype="passive+no_connect"/>
+    </net>
+    <net code="67" name="unconnected-(J1-Pad9)">
+      <node ref="J1" pin="9" pinfunction="GNDDSelect" pintype="passive+no_connect"/>
+    </net>
+    <net code="68" name="unconnected-(J100-Pad4)">
+      <node ref="J100" pin="4" pinfunction="Pin_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="69" name="unconnected-(J100-Pad8)">
+      <node ref="J100" pin="8" pinfunction="Pin_8" pintype="passive+no_connect"/>
+    </net>
+    <net code="70" name="unconnected-(J100-Pad13)">
+      <node ref="J100" pin="13" pinfunction="Pin_13" pintype="passive+no_connect"/>
+    </net>
+    <net code="71" name="unconnected-(J100-Pad17)">
+      <node ref="J100" pin="17" pinfunction="Pin_17" pintype="passive+no_connect"/>
+    </net>
+    <net code="72" name="unconnected-(U50-Pad1)">
+      <node ref="U50" pin="1" pinfunction="RC0_2" pintype="input+no_connect"/>
+    </net>
+    <net code="73" name="unconnected-(U50-Pad7)">
+      <node ref="U50" pin="7" pinfunction="DNC" pintype="no_connect"/>
+    </net>
+    <net code="74" name="unconnected-(U50-Pad10)">
+      <node ref="U50" pin="10" pinfunction="DNC" pintype="no_connect"/>
+    </net>
+    <net code="75" name="unconnected-(U50-Pad24)">
+      <node ref="U50" pin="24" pinfunction="DNC" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>

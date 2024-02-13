@@ -1,0 +1,311 @@
+{
+"DesignRules": [
+{
+"Layers": "Outer",
+"MinLineWidth": 0.254,
+"PadToPad": 0.1016,
+"PadToTrack": 0.1016,
+"RegionToRegion": 0.127,
+"TrackToRegion": 0.127,
+"TrackToTrack": 0.127
+},
+{
+"Layers": "Inner",
+"MinLineWidth": 0.254,
+"PadToPad": 0.0,
+"PadToTrack": 0.0,
+"RegionToRegion": 0.127,
+"TrackToRegion": 0.127,
+"TrackToTrack": 0.127
+}
+],
+"FilesAttributes": [
+{
+"FileFunction": "Copper,L1,Top",
+"FilePolarity": "Positive",
+"Path": "SwiftMoteECp-F_SIGpot1_Cu.gbr"
+},
+{
+"FileFunction": "Copper,L2,Inr",
+"FilePolarity": "Positive",
+"Path": "SwiftMoteECp-I_GND1_Cu.gbr"
+},
+{
+"FileFunction": "Copper,L3,Inr",
+"FilePolarity": "Positive",
+"Path": "SwiftMoteECp-I_SIGpot2_Cu.gbr"
+},
+{
+"FileFunction": "Copper,L4,Inr",
+"FilePolarity": "Positive",
+"Path": "SwiftMoteECp-I_GND2_Cu.gbr"
+},
+{
+"FileFunction": "Copper,L5,Inr",
+"FilePolarity": "Positive",
+"Path": "SwiftMoteECp-I_PWRpot1_Cu.gbr"
+},
+{
+"FileFunction": "Copper,L6,Inr",
+"FilePolarity": "Positive",
+"Path": "SwiftMoteECp-I_PWRu_Cu.gbr"
+},
+{
+"FileFunction": "Copper,L7,Inr",
+"FilePolarity": "Positive",
+"Path": "SwiftMoteECp-I_GND3_Cu.gbr"
+},
+{
+"FileFunction": "Copper,L8,Inr",
+"FilePolarity": "Positive",
+"Path": "SwiftMoteECp-I_SIGu2_Cu.gbr"
+},
+{
+"FileFunction": "Copper,L9,Inr",
+"FilePolarity": "Positive",
+"Path": "SwiftMoteECp-I_GND4_Cu.gbr"
+},
+{
+"FileFunction": "Copper,L10,Bot",
+"FilePolarity": "Positive",
+"Path": "SwiftMoteECp-B_SIGu1_Cu.gbr"
+},
+{
+"FileFunction": "SolderPaste,Top",
+"FilePolarity": "Positive",
+"Path": "SwiftMoteECp-F_Paste.gbr"
+},
+{
+"FileFunction": "SolderPaste,Bot",
+"FilePolarity": "Positive",
+"Path": "SwiftMoteECp-B_Paste.gbr"
+},
+{
+"FileFunction": "Legend,Top",
+"FilePolarity": "Positive",
+"Path": "SwiftMoteECp-F_Silkscreen.gbr"
+},
+{
+"FileFunction": "Legend,Bot",
+"FilePolarity": "Positive",
+"Path": "SwiftMoteECp-B_Silkscreen.gbr"
+},
+{
+"FileFunction": "SolderMask,Top",
+"FilePolarity": "Negative",
+"Path": "SwiftMoteECp-F_Mask.gbr"
+},
+{
+"FileFunction": "SolderMask,Bot",
+"FilePolarity": "Negative",
+"Path": "SwiftMoteECp-B_Mask.gbr"
+},
+{
+"FileFunction": "Profile",
+"FilePolarity": "Positive",
+"Path": "SwiftMoteECp-Edge_Cuts.gbr"
+},
+{
+"FileFunction": "AssemblyDrawing,Top",
+"FilePolarity": "Positive",
+"Path": "SwiftMoteECp-F_Fab.gbr"
+},
+{
+"FileFunction": "AssemblyDrawing,Bot",
+"FilePolarity": "Positive",
+"Path": "SwiftMoteECp-B_Fab.gbr"
+}
+],
+"GeneralSpecs": {
+"BoardThickness": 1.6405,
+"Finish": "ENIG",
+"ImpedanceControlled": true,
+"LayerNumber": 10,
+"ProjectId": {
+"GUID": "7261746b-6974-45f6-9465-7369676e2e6b",
+"Name": "xxxkit_design",
+"Revision": "xxxKit2022_proA"
+},
+"Size": {
+"X": 33.17,
+"Y": 51.8644
+}
+},
+"Header": {
+"CreationDate": "2022-07-14T10:50:46-04:00",
+"GenerationSoftware": {
+"Application": "Pcbnew",
+"Vendor": "KiCad",
+"Version": "(6.0.4)"
+}
+},
+"MaterialStackup": [
+{
+"Color": "Blue",
+"Material": "Direct Printing",
+"Name": "Top Silk Screen",
+"Type": "Legend"
+},
+{
+"Name": "Top Solder Paste",
+"Type": "SolderPaste"
+},
+{
+"Color": "Yellow",
+"DielectricConstant": "3.3",
+"Material": "Liquid Ink",
+"Name": "Top Solder Mask",
+"Thickness": 0.01,
+"Type": "SolderMask"
+},
+{
+"Name": "F.SIGpot1.Cu",
+"Thickness": 0.0305,
+"Type": "Copper"
+},
+{
+"DielectricConstant": "4.04",
+"LossTangent": "0.021",
+"Material": "370HR_CMR",
+"Name": "F.SIGpot1.Cu/I.GND1.Cu",
+"Notes": "Type: dielectric layer 1 (from F.SIGpot1.Cu to I.GND1.Cu)",
+"Thickness": 0.1372,
+"Type": "Dielectric"
+},
+{
+"Name": "I.GND1.Cu",
+"Thickness": 0.0305,
+"Type": "Copper"
+},
+{
+"DielectricConstant": "4.04",
+"LossTangent": "0.021",
+"Material": "370HR_CMR",
+"Name": "I.GND1.Cu/I.SIGpot2.Cu",
+"Notes": "Type: dielectric layer 2 (from I.GND1.Cu to I.SIGpot2.Cu)",
+"Thickness": 0.1778,
+"Type": "Dielectric"
+},
+{
+"Name": "I.SIGpot2.Cu",
+"Thickness": 0.0305,
+"Type": "Copper"
+},
+{
+"DielectricConstant": "4.04",
+"LossTangent": "0.021",
+"Material": "370HR_CMR",
+"Name": "I.SIGpot2.Cu/I.GND2.Cu",
+"Notes": "Type: dielectric layer 3 (from I.SIGpot2.Cu to I.GND2.Cu)",
+"Thickness": 0.1778,
+"Type": "Dielectric"
+},
+{
+"Name": "I.GND2.Cu",
+"Thickness": 0.0305,
+"Type": "Copper"
+},
+{
+"DielectricConstant": "4.04",
+"LossTangent": "0.021",
+"Material": "370HR_CMR",
+"Name": "I.GND2.Cu/I.PWRpot1.Cu",
+"Notes": "Type: dielectric layer 4 (from I.GND2.Cu to I.PWRpot1.Cu)",
+"Thickness": 0.1016,
+"Type": "Dielectric"
+},
+{
+"Name": "I.PWRpot1.Cu",
+"Thickness": 0.0305,
+"Type": "Copper"
+},
+{
+"DielectricConstant": "4.04",
+"LossTangent": "0.021",
+"Material": "370HR_CMR",
+"Name": "I.PWRpot1.Cu/I.PWRu.Cu",
+"Notes": "Type: dielectric layer 5 (from I.PWRpot1.Cu to I.PWRu.Cu)",
+"Thickness": 0.127,
+"Type": "Dielectric"
+},
+{
+"Name": "I.PWRu.Cu",
+"Thickness": 0.0305,
+"Type": "Copper"
+},
+{
+"DielectricConstant": "4.04",
+"LossTangent": "0.021",
+"Material": "370HR_CMR",
+"Name": "I.PWRu.Cu/I.GND3.Cu",
+"Notes": "Type: dielectric layer 6 (from I.PWRu.Cu to I.GND3.Cu)",
+"Thickness": 0.1016,
+"Type": "Dielectric"
+},
+{
+"Name": "I.GND3.Cu",
+"Thickness": 0.0305,
+"Type": "Copper"
+},
+{
+"DielectricConstant": "4.04",
+"LossTangent": "0.021",
+"Material": "370HR_CMR",
+"Name": "I.GND3.Cu/I.SIGu2.Cu",
+"Notes": "Type: dielectric layer 7 (from I.GND3.Cu to I.SIGu2.Cu)",
+"Thickness": 0.1778,
+"Type": "Dielectric"
+},
+{
+"Name": "I.SIGu2.Cu",
+"Thickness": 0.0305,
+"Type": "Copper"
+},
+{
+"DielectricConstant": "4.04",
+"LossTangent": "0.021",
+"Material": "370HR_CMR",
+"Name": "I.SIGu2.Cu/I.GND4.Cu",
+"Notes": "Type: dielectric layer 8 (from I.SIGu2.Cu to I.GND4.Cu)",
+"Thickness": 0.1778,
+"Type": "Dielectric"
+},
+{
+"Name": "I.GND4.Cu",
+"Thickness": 0.0305,
+"Type": "Copper"
+},
+{
+"DielectricConstant": "4.04",
+"LossTangent": "0.021",
+"Material": "370HR_CMR",
+"Name": "I.GND4.Cu/B.SIGu1.Cu",
+"Notes": "Type: dielectric layer 9 (from I.GND4.Cu to B.SIGu1.Cu)",
+"Thickness": 0.1372,
+"Type": "Dielectric"
+},
+{
+"Name": "B.SIGu1.Cu",
+"Thickness": 0.0305,
+"Type": "Copper"
+},
+{
+"Color": "Yellow",
+"DielectricConstant": "3.3",
+"Material": "Liquid Ink",
+"Name": "Bottom Solder Mask",
+"Thickness": 0.01,
+"Type": "SolderMask"
+},
+{
+"Name": "Bottom Solder Paste",
+"Type": "SolderPaste"
+},
+{
+"Color": "Green",
+"Material": "Direct Printing",
+"Name": "Bottom Silk Screen",
+"Type": "Legend"
+}
+]
+}

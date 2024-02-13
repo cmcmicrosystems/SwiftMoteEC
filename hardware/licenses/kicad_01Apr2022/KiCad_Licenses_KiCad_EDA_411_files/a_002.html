@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html style=""><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<title> Donate to KiCad </title>
+<link rel="stylesheet" type="text/css" href="a_data_002/site-min.css">
+<link rel="stylesheet" type="text/css" href="a_data_002/normalize-min.css">
+<link rel="stylesheet" type="text/css" href="a_data_002/style-min.css">
+<link rel="apple-touch-icon" sizes="57x57" href="https://donate.kicad.org/static/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="https://donate.kicad.org/static/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="https://donate.kicad.org/static/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="https://donate.kicad.org/static/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="https://donate.kicad.org/static/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="https://donate.kicad.org/static/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="https://donate.kicad.org/static/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="https://donate.kicad.org/static/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://donate.kicad.org/static/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="https://donate.kicad.org/static/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="https://donate.kicad.org/static/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="https://donate.kicad.org/static/favicon-16x16.png" sizes="16x16">
+<meta name="apple-mobile-web-app-title" content="KiCad Website">
+<meta name="application-name" content="KiCad Website">
+<meta name="msapplication-TileColor" content="#2b5797">
+<meta name="msapplication-TileImage" content="/static/mstile-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<style type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/rangeslider.js/2.3.3/rangeslider.css"></style>
+<script src="a_data_002/jquery-3.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+<script src="a_data_002/a"></script>
+<script src="a_data_002/rangeslider.js"></script>
+</head>
+<body style="">
+<div class="body-content" style="">
+<main id="content" style="">
+<div class="novaContent container-full" id="novaContent" style="">
+<div class="text-center padding-bottom-50" style="">
+<div class="container padding-bottom-25" style="">
+<div class="row" style="">
+<div class="col-xs-22 col-xs-offset-1 col-sm-22 col-sm-offset-1 col-md-22 col-md-offset-1 col-lg-20 col-lg-offset-2 donate-container" style="">
+<div class="donate-container-content" style="">
+<h1>
+Accelerate <strong class="orange">KiCad</strong> today with your donation
+</h1>
+<p>
+If KiCad is valuable to you, please consider donating to help us make it even better.
+<a href="https://www.kicad.org/img/donations/2021_flyer.pdf" target="_blank">Here's what we used your donations for in 2020.</a>
+</p>
+<input id="kicad-donate-slider" class="donate-bar" type="range" value="1" step="1" min="1" max="5" style="position: absolute; width: 1px; height: 1px; overflow: hidden; opacity: 0;"><div class="rangeslider rangeslider--horizontal" id="js-rangeslider-0" style=""><div class="rangeslider__fill" style="width: 0px;"></div><div class="rangeslider__handle" style="left: 0px;"></div></div>
+</div>
+<ul class="list-inline list-donate-amount text-left margin-bottom-20">
+<li class="one">$15</li>
+<li class="two">$25</li>
+<li class="three text-center">$40</li>
+<li class="four text-right">$100</li>
+<li class="five text-right">$250</li>
+</ul>
+<div class="form-inline margin-bottom-20 donate-submit">
+<div class="input-group">
+<div class="dropdown input-group-addon frequency">
+<button class="dropbtn arrow" id="frequency">One-time donation</button>
+<div class="dropdown-content frequency">
+<a id="frequency_one" class="frequency_link" href="#">One-time donation</a>
+<a id="frequency_month" class="frequency_link" href="#">Monthly donation</a>
+<a id="frequency_quarter" class="frequency_link" href="#">Quarterly donation</a>
+<a id="frequency_year" class="frequency_link" href="#">Yearly donation</a>
+</div>
+</div>
+<input id="donate-val" class="donate-amount form-control text-center" type="number" name="firstAmount" value="40" min="5">
+<div class="dropdown input-group-addon currency">
+<button class="dropbtn arrow" id="currency">USD</button>
+<div class="dropdown-content currency">
+<a id="currency_usd" class="currency_link" href="#">USD</a>
+<a id="currency_eur" class="currency_link" href="#">EUR</a>
+<a id="currency_cny" class="currency_link" href="#">CNY</a>
+<a id="currency_jpy" class="currency_link" href="#">JPY</a>
+<a id="currency_gbp" class="currency_link" href="#">GBP</a>
+<a id="currency_inr" class="currency_link" href="#">INR</a>
+</div>
+</div>
+</div>
+<br>
+<form id="paypal-single" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" style="display: inline;">
+<input name="charset" value="utf-8" type="hidden">
+<input name="image_url" value="https://www.kicad.org/img/kicad_logo_small.png" type="hidden">
+<input name="no_shipping" value="1" type="hidden">
+<input name="return" value="https://go.kicad.org/thank-you" type="hidden">
+<input id="paypal-single-cancel" name="cancel_return" value="https://www.kicad.org//about/licenses/" type="hidden">
+<input id="paypal-single-currency" name="currency_code" value="USD" type="hidden">
+<input name="business" value="donations@kicad.org" type="hidden">
+<input name="item_name" value="Support KiCad Development" type="hidden">
+<input name="cmd" value="_donations" type="hidden">
+<input id="paypal-single-val" name="amount" value="40" type="hidden">
+<input id="paypal-single-btn" class="btn btn-info btn-donate" src="a_data_002/btn_donateCC_LG.gif" name="donatebutton" value="Donate via PayPal" alt="PayPal secure payments." type="submit">
+</form>
+<form id="paypal-sub" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" style="display: none;">
+<input name="charset" value="utf-8" type="hidden">
+<input name="image_url" value="https://www.kicad.org/img/kicad_logo_small.png" type="hidden">
+<input name="no_shipping" value="1" type="hidden">
+<input name="return" value="https://go.kicad.org/thank-you" type="hidden">
+<input id="paypal-sub-cancel" name="cancel_return" value="https://www.kicad.org//about/licenses/" type="hidden">
+<input id="paypal-sub-currency" name="currency_code" value="USD" type="hidden">
+<input name="business" value="donations@kicad.org" type="hidden">
+<input name="item_name" value="Monthly Donation for KiCad Development" type="hidden">
+<input name="cmd" value="_xclick-subscriptions" type="hidden">
+<input name="src" value="1" type="hidden">
+<input id="paypal-sub-val" name="a3" value="40" type="hidden">
+<input name="t3" value="M" type="hidden">
+<input id="paypal-sub-len" name="p3" value="1" type="hidden">
+<input id="paypal-sub-btn" class="btn btn-info btn-donate" src="a_data_002/btn_donateCC_LG.gif" name="donatebutton" value="Donate via PayPal" alt="PayPal secure payments." type="submit">
+</form>
+<button id="checkout-button" type="button" class="btn btn-info btn-donate">Donate via Credit Card/eWallet</button>
+</div>
+</div>
+<div class="col-xs-22 col-xs-offset-1 col-sm-22 col-sm-offset-1 col-md-22 col-md-offset-1 col-lg-20 col-lg-offset-2">
+eWallet donations are accepted from AliPay (CN¥), Apple Pay, Google Pay, Sofort(€), iDEAL(€), giropay(€) and SEPA Debit(€).
+</div>
+</div>
+</div>
+<p style="text-align: center;"><a href="mailto:support@kipro-pcb.com?subject=Donation Problems">Problems Donating?</a> | <a href="https://www.kicad.org/donate/faq" target="_blank">Donation FAQ</a></p>
+</div>
+</div>
+</main>
+<script type="text/javascript">
+    var stripe = Stripe('pk_live_sj05FFLZO3pML3O9I5sapRlw00CvWUqCCg');
+    var stripeButton = document.getElementById('checkout-button');
+    var output = document.getElementById('donate-val');
+    var paypal_val = document.getElementById('paypal-single-val');
+    var paypal_sub_val = document.getElementById('paypal-sub-val');
+    var slider = document.getElementById('kicad-donate-slider');
+    var slider_index = 2;
+
+    var origin = new URL(document.URL);
+    var loc = origin.searchParams.get('location');
+
+    var val_vector = {
+        'usd': [15, 25, 40, 100, 250],
+        'eur': [15, 20, 35, 100, 250],
+        'cny': [60, 140, 200, 400, 800],
+        'jpy': [1500, 2500, 4000, 10000, 15000],
+        'gbp': [10, 20, 30, 75, 120],
+        'inr': [700, 1400, 2500, 5000, 10000]
+    };
+
+    // These values ensure that not more than 10% of the donation goes to processing fees
+    var min_vector = {
+        'usd': 5,
+        'eur': 5,
+        'cny': 30,
+        'jpy': 500,
+        'gbp': 4,
+        'inr': 350
+    };
+
+    var currency = 'usd';
+
+    if( loc != null )
+    {
+        document.getElementById('paypal-single-cancel').value = 'https://www.kicad.org/' + loc;
+        document.getElementById('paypal-sub-cancel').value = 'https://www.kicad.org/' + loc;
+    }
+
+    function updateVals() {
+        var currency_sym = '$';
+        currency = document.querySelector('#currency').textContent.toLowerCase();
+
+        if (currency == 'cny' ) {
+            document.getElementById('paypal-sub-btn').disabled = true;
+            document.getElementById('paypal-single-btn').disabled = true;
+            document.getElementById('checkout-button').textContent = 'Donate via AliPay'
+        } else if ( currency == 'inr' ) {
+            document.getElementById('checkout-button').textContent = 'Donate via Credit Card/eWallet'
+            document.getElementById('paypal-single-btn').disabled = true;
+            document.getElementById('paypal-sub-btn').disabled = true;
+        } else {
+            document.getElementById('checkout-button').textContent = 'Donate via Credit Card/eWallet'
+            document.getElementById('paypal-single-btn').disabled = false;
+            document.getElementById('paypal-sub-btn').disabled = false;
+        }
+
+        if (currency == 'eur') {
+            currency_sym = '€';
+        } else if (currency == 'cny') {
+            currency_sym = '¥';
+        } else if (currency == 'jpy') {
+            currency_sym = '¥';
+        } else if (currency == 'gbp') {
+            currency_sym = '₤';
+        } else if (currency == 'inr' ) {
+            currency_sym = '₹'
+        }
+
+        document.getElementById('paypal-sub-currency').value = currency.toUpperCase();
+        document.getElementById('paypal-single-currency').value = currency.toUpperCase();
+
+        document.querySelector('.one').textContent = currency_sym + val_vector[currency][0];
+        document.querySelector('.two').textContent = currency_sym + val_vector[currency][1];
+        document.querySelector('.three').textContent = currency_sym + val_vector[currency][2];
+        document.querySelector('.four').textContent = currency_sym + val_vector[currency][3];
+        document.querySelector('.five').textContent = currency_sym + val_vector[currency][4];
+
+        output.min = min_vector[currency];
+    }
+
+    stripeButton.addEventListener('click', function() {
+        fetch('/create-checkout-session', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    amount: parseInt(output.value),
+                    currency: document.querySelector('#currency').textContent,
+                    backdest: loc
+                })
+            })
+            .then(function(response) {
+                return response.json();
+            })
+            .then(function(session) {
+                return stripe.redirectToCheckout({
+                    sessionId: session.id
+                });
+            })
+            .then(function(result) {
+                if (result.error) {
+                    alert(result.error.message);
+                }
+            })
+            .catch(function(error) {
+                console.error('Error:', error);
+            });
+    });
+
+    (function(jQuery, window, document) {
+
+        $(document).on('click', 'a[class="currency_link"]', function(e) {
+            $('#currency')[0].textContent = e.currentTarget.text;
+            updateVals();
+            output.value = val_vector[currency][slider_index];
+            paypal_val.value = output.value;
+            paypal_sub_val.value = output.value;
+            return false;
+        })
+
+        $(document).on('click', 'a[class="frequency_link"]', function(e) {
+            $('#frequency')[0].textContent = e.currentTarget.text;
+            if( e.currentTarget.text == 'One-time donation' )
+            {
+                document.getElementById('paypal-single').style = "display: inline;"
+                document.getElementById('paypal-sub').style = "display: none;"
+                document.getElementById('checkout-button').disabled = false;
+            }
+            else if( e.currentTarget.text == 'Monthly donation' ) {
+                document.getElementById('paypal-single').style = "display: none;"
+                document.getElementById('paypal-sub').style = "display: inline;"
+                document.getElementById('paypal-sub-len').value = "1"
+                document.getElementById('checkout-button').disabled = true;
+            }
+            else if( e.currentTarget.text == 'Quarterly donation' ) {
+                document.getElementById('paypal-single').style = "display: none;"
+                document.getElementById('paypal-sub').style = "display: inline;"
+                document.getElementById('paypal-sub-len').value = "4"
+                document.getElementById('checkout-button').disabled = true;
+            }
+            else if( e.currentTarget.text == 'Yearly donation' ) {
+                document.getElementById('paypal-single').style = "display: none;"
+                document.getElementById('paypal-sub').style = "display: inline;"
+                document.getElementById('paypal-sub-len').value = "12"
+                document.getElementById('checkout-button').disabled = true;
+            }
+            return false;
+        })
+
+        $('input.donate-amount').focusout(function() {
+            if ($(this).val() < min_vector[currency]) {
+                $(this).val(min_vector[currency]);
+                paypal_val.value = output.value;
+                paypal_sub_val.value = output.value;
+            }
+        });
+
+        $('input.donate-amount').change(function() {
+            paypal_val.value = output.value;
+            paypal_sub_val.value = output.value;
+        });
+
+        $('input[type="range"]').rangeslider({
+            polyfill: false,
+            onInit: function() {
+                this.value = 3;
+                slider_index = 2;
+                updateVals();
+                output.value = val_vector[currency][slider_index];
+                paypal_val.value = output.value;
+                paypal_sub_val.value = output.value;
+            },
+            onSlide: function() {
+                slider_index = this.value - 1;
+                output.value = val_vector[currency][slider_index];
+                paypal_val.value = output.value;
+                paypal_sub_val.value = output.value;
+            }
+        });
+
+    })(jQuery, window, document);
+</script>
+<footer>
+</footer>
+</div>
+<script defer="defer" src="v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon="{&quot;rayId&quot;:&quot;6f537e028a04a1e7&quot;,&quot;version&quot;:&quot;2021.12.0&quot;,&quot;r&quot;:1,&quot;token&quot;:&quot;6528c45a16ac4240aceace2c3e509816&quot;,&quot;si&quot;:100}" crossorigin="anonymous"></script>
+
+<iframe name="__privateStripeMetricsController8520" allowtransparency="true" scrolling="no" src="a_data_002/m-outer-9fe86c29346daf61dc2cc0586b4fad18.html" aria-hidden="true" tabindex="-1" style="border: medium none !important; margin: 0px !important; padding: 0px !important; width: 1px !important; min-width: 100% !important; overflow: hidden !important; display: block !important; visibility: hidden !important; position: fixed !important; height: 1px !important; pointer-events: none !important; user-select: none !important;" frameborder="0"></iframe></body></html>
