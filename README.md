@@ -38,6 +38,8 @@ CMC can assist, from answering technical enquiries, to helping with installation
 
 ## Other Resources
 
+[CMC SwiftMote Product Page](https://www.cmc.ca/swiftmote-iot-customizable-sensor-platform/)
+
 For ST BlueNRG-LP:
 * [Product information, documentation, and support](https://www.st.com/en/wireless-connectivity/bluenrg-lp.html)
 * [Evaluation Tool Software](https://www.st.com/en/embedded-software/stsw-bnrglp-dk.html)
