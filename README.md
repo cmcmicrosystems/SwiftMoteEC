@@ -36,7 +36,7 @@ CMC can assist, from answering technical enquiries, to helping with installation
 * CMC Subscribers: submit support questions through CMC's [Online Support Form](https://www.cmc.ca/support/)
 * Contact [lab@cmc.ca](mailto:lab@cmc.ca) for further enquiries
 
-## Other Resources
+## Additional Resources
 
 [CMC SwiftMote Product Page](https://www.cmc.ca/swiftmote-iot-customizable-sensor-platform/)
 
