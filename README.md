@@ -9,7 +9,13 @@ The hardware and software of the SwiftMoteEC was developed by CMC Microsystems i
 
 
 
-<img src="hardware/graphics/SwiftMoteEC_FrontSide_QTR.png" width="300" />  <br><br>
+<img src="hardware/graphics/SwiftMoteEC_FrontSide_QTR.png" width="300" /> <br>
+Figure 1: SwiftMoteEC Hardware Prototype
+<br><br>
+
+<img src="hardware/graphics/SwiftMote_EC_BlockDiagram.png" width="500" />  <br>
+Figure 2: SwiftMoteEC Block Diagram
+<br><br>
 
 
 SwiftMote-Electrochemical Sensor Platform is a small, open, wireless (BLE) platform designed for electrochemical experiments that require free movement of the sensing platform.
