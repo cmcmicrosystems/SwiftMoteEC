@@ -44,7 +44,7 @@ Instructions to setup and run a demonstration application is provided in the [so
 
 CMC can assist, from answering technical enquiries, to helping with installation and setup, to providing consulting services to customize the platform for your needs. If you have questions:
 
-* Consult [Known_Issues.md](Known_issues.md) for any outstanding technical notes and workarounds
+* Consult [Known_Issues.md](Known_Issues.md) for any outstanding technical notes and workarounds
 * Submit an Issue in the repository
 * CMC Subscribers: submit support questions through CMC's [Online Support Form](https://www.cmc.ca/support/)
 * Contact [lab@cmc.ca](mailto:lab@cmc.ca) for further enquiries
