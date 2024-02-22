@@ -21,11 +21,11 @@ Figure 2: SwiftMoteEC Block Diagram
 SwiftMote-Electrochemical Sensor Platform is a small, wireless (BLE) platform designed for electrochemical experiments that require free movement of the sensing platform.
 
 The platform features:
-  - ST BlueNRG-LP Bluetooth Low Energy microcontroller
-- 256kB flash memory
-- Expansion ports with 4x 12-bit ADC and I2C
-  - Analog Devices AD5941 potentiostat amplifer with 16-bit ADC and 12-bit DAC
-  - Host PC application to receive and store sensor data
+* ST BlueNRG-LP Bluetooth Low Energy microcontroller
+  * 256kB flash memory
+  * Expansion ports with 4x 12-bit ADC and I2C
+* Analog Devices AD5941 potentiostat amplifer with 16-bit ADC and 12-bit DAC
+* Host PC application to receive and store sensor data
 
 The platform hardware and software are open and modifiable for end user applications. CMC has limited hardware samples available for demonstration and evaluation. Contact us for availability and pricing.
 
