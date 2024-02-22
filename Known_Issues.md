@@ -6,5 +6,5 @@
 2. Capacitor C16 was changed to 10uF, MPN C0402C106M9PACTU , update the BoM before sending to manufacturing.
 ##
 ## Software - Known Issues
-1. Duplicated first data packet issue: after the initial connection is established, the client always receives the very first data packet twice. Further investigation showed that the SwiftMoteEC failed to receive the knowledgement sent by the client on the very first data packet. A temporary solution is provided with this release by avoiding saving the duplicated data packet in the .csv data file. 
+1. Duplicated first data packet issue: after the initial connection is established, the client always receives the very first data packet twice. Further investigation showed that the server (SwiftMoteEC) failed to receive the knowledgement sent by the client on the very first data packet. A temporary solution is provided with this release by avoiding saving the duplicated data packet in the .csv data file. 
 ##
