@@ -18,17 +18,16 @@ Figure 2: SwiftMoteEC Block Diagram
 <br><br>
 
 
-SwiftMote-Electrochemical Sensor Platform is a small, open, wireless (BLE) platform designed for electrochemical experiments that require free movement of the sensing platform.
+SwiftMote-Electrochemical Sensor Platform is a small, wireless (BLE) platform designed for electrochemical experiments that require free movement of the sensing platform.
 
 The platform features:
-- ST BlueNRG-LP Bluetooth Low Energy microcontroller
+  - ST BlueNRG-LP Bluetooth Low Energy microcontroller
 - 256kB flash memory
-- 64-bit unique ID
 - Expansion ports with 4x 12-bit ADC and I2C
-- Analog Devices AD5941 potentiostat amplifer with 16-bit ADC and 12-bit DAC
-- Host PC application to record and process square-wave voltammetry data
+  - Analog Devices AD5941 potentiostat amplifer with 16-bit ADC and 12-bit DAC
+  - Host PC application to receive and store sensor data
 
-CMC has limited hardware samples available for demonstration and evaluation. Contact us for availability and pricing.
+The platform hardware and software are open and modifiable for end user applications. CMC has limited hardware samples available for demonstration and evaluation. Contact us for availability and pricing.
 
 ## Repository
 
@@ -37,14 +36,19 @@ This repo contains hardware design files and demonstration application software 
 
 > /software : demonstration application for Server (SwiftMoteEC) and Client (Windows PC)
 
+## Getting Started
+
+Instructions to setup and run a demonstration application is provided in the [software README.md](/software/README.md).
+
 ## Support
 
 CMC can assist, from answering technical enquiries, to helping with installation and setup, to providing consulting services to customize the platform for your needs. If you have questions:
 
-
+* Consult [Known_Issues.md](Known_issues.md) for any outstanding technical notes and workarounds
 * Submit an Issue in the repository
 * CMC Subscribers: submit support questions through CMC's [Online Support Form](https://www.cmc.ca/support/)
 * Contact [lab@cmc.ca](mailto:lab@cmc.ca) for further enquiries
+
 
 ## Additional Resources
 
