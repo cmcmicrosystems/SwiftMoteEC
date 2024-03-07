@@ -22,7 +22,7 @@ Refer to the following two diagrams for detailed communication and control flow 
 <p float="left">
 <img src="Images/SwiftMote_Server_Client.jpg" alt="figure" width="181px" height="267px">
 <img src="Images/space.JPG" alt="figure" width="20px" height="200px">
-<img src="Images/SwiftMote_Server.jpg" alt="figure" width="435px" height="238px">
+<img src="Images/SwiftMoteEC_Server.JPG" alt="figure" width="435px" height="238px">
 </p>
 
 Figure 1: Server/Client Application &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Figure 2: Server (mote) Application Flow
