@@ -42,7 +42,7 @@ Figure 1: Server/Client Application &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &n
 - Windows 10
 - [Python 3.9 or later](https://www.python.org/downloads/)
 - Pycharm 2022.1.2 or later, [Pycharm Community Edition](https://www.jetbrains.com/pycharm/download/?source=google&medium=cpc&campaign=14127625109&term=pycharm&gclid=Cj0KCQjwxveXBhDDARIsAI0Q0x16fXFz4C-7_MGVG-Yv5K3o9jl235fJAqfMMMbFg_4_uuu_0xRi96caAi2OEALw_wcB#section=windows)
-- [Bleak](https://github.com/hbldh/bleak) (0.20.2 or later); to install Bleak, in Window 10 Command Prompt, issue the following command : *pip install bleak*
+- [Bleak](https://github.com/hbldh/bleak) (0.20.2 or later); to install Bleak, in Window 10 Command Prompt, issue the following command : *pip install -U bleak*
 - [Keil µVision V5.37 or later](https://www2.keil.com/stmicroelectronics-stm32) or later
 - [Digilent WaveForms](https://digilent.com/reference/software/waveforms/waveforms-3/previous-versions) (if using Digilent Analog Discovery as power supply)
 - [ST BlueNRG-LP_LPS DK 1.5.0 or later](https://www.st.com/en/embedded-software/stsw-bnrglp-dk.html#get-software)
