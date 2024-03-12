@@ -111,7 +111,7 @@ Figure 7: Pycharm Project Window
 2.	Copy all the .h files located in SwiftMoteEC_Demo_Server\other folder to <span>..\ BlueNRG-LP_LPS DK 1.5.0\Drivers\BSP\Inc</span>
 3.	Copy all the .c files located in SwiftMoteEC_Demo_Server\other folder to ..\ BlueNRG-LP_LPS DK 1.5.0\\Drivers\BSP\Src
 4.	Open Keil µVision.
-5.	From the menu, open the project by selecting Project | Open Project, browser to <span>..\BlueNRG-LP_LPS DK 1.5.0\Projects\BLE_Examples\SwiftMoteEC_Demo_Server\MDK-ARM\,</span> and select the project file SwiftMoteEC_Demo.uvprojx.
+5.	From the menu, open the project by selecting Project | Open Project, browser to <span>..\BlueNRG-LP_LPS DK 1.5.0\Projects\BLE_Examples\SwiftMoteEC_Demo_Server\MDK-ARM\SwiftMoteEC,</span> and select the project file SwiftMoteEC_Demo.uvprojx.
 6.	From the menu, select Project | Options for Target 'Release'.
 7.	Verify the following: <br>
  a). In the Device tab (Figure 9), verify “BlueNRG-355” is selected
